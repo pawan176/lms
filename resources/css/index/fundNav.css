@@ -1,0 +1,44 @@
+.block{float: left;border: 1px solid #ddd;width: 100%;margin: 0 0 20px 0;}
+.top-head{float: left;padding: 12px 2.5% 12px;width: 95%;background:#f7f7f7;}
+.top-head h3{float: left;font: normal 16px/16px 'Open Sans Semibold',arial;color: #004fb6;}
+.top-head a{float: right;color: #505050;font-size: 12px;}
+.top-head.growth{background: #FFF;padding: 0;width: 100%}
+.top-head.growth h3{padding: 12px 1% 12px 2.5%;background: #f7f7f7;}
+.growth-fund{float: left;background: #fff;width: 87%;padding: 6px 0 6px 0;}
+.growth-fund li{float: left;border-right: 1px solid #d2d2d2;padding: 0 1.5%;width: 33%;}
+.growth-fund li:last-child{width: 24%;border: 0;}
+/*.growth-fund li:first-child{border: 0;}*/
+.growth-fund li span{float: left;color: #4f5259;font-size: 14px;margin: 7px 0;}
+.growth-fund li a{float: left;margin: 0 0 0 2%;background: #3876c6;color: #fff;font-size: 14px;padding: 7px 10px;}
+.growth-fund li a small{background: url(../../images/small-icon.png) no-repeat 0 -108px;float: right;width: 10px;height: 10px;}
+
+/*============================= 
+! Layout for ipad landscape  
+============================= */
+@media only screen and (max-width: 1024px) {
+.top-head.growth h3{width: 95%;padding: 12px 2.5%;}
+.growth-fund li a{margin: 0 0 0 2%}
+.growth-fund{width: 98%;padding: 6px 1%}
+.growth-fund li a{margin: 0;}
+.growth-fund li span{width: 100%}
+}
+/* ============================= */
+/*============================= 
+! Layout for ipad portrait  
+============================= */
+@media only screen and (max-width: 992px) {
+.buzz-list{width: 100%}
+}
+/* ============================= */
+/* ! Layout for mobile(lanscape) version   */
+/* ============================= */
+@media only screen and (max-width: 767px) {
+
+}
+/* ============================= */
+/* ! Layout for mobile(portrait) version   */
+/* ============================= */
+@media only screen and (max-width: 479px) {
+
+}
+/* mobile css ends here*/

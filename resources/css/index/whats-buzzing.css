@@ -1,0 +1,47 @@
+.buzz-list{float: left;width: 95%;}
+.buzz-list li{float: left;width: 100%;padding: 5px 0 10px 0;border-bottom: 1px solid #ececed;}
+.buzz-list li figure{float: left;margin: 0 10px 0 0;}
+.buzz-list p{color: #4f5259;font-size: 13px;line-height: 15px;}
+.buzz-list span{display: inline-block;padding: 10px 0 0 0;color: #a3a0a9;font-size: 12px;}
+.buzz{width: 32.5%;float: right;}
+.buzz-wrap{width: 100%;height: 154px; overflow-y:scroll;}
+.top-head{float: left;padding: 12px 2.5% 12px;width: 95%;background:#f7f7f7;}
+.top-head h3{float: left;font: normal 16px/16px 'Open Sans Semibold',arial;color: #004fb6;}
+.top-head a{float: right;color: #505050;font-size: 12px;}
+.content{float: left;width: 95%;padding: 15px 2.5%;}
+.right{float: right;}
+.buzz .top-head h3{padding: 0 0 0 5%;}
+/*============================= 
+! Layout for ipad landscape  
+============================= */
+@media only screen and (max-width: 1024px) {
+
+.buzz .top-head h3 { padding:0;}
+
+}
+/* ============================= */
+/*============================= 
+! Layout for ipad portrait  
+============================= */
+@media only screen and (max-width: 992px) {
+.buzz {margin: 10px 0;width: 99.5%;}
+.buzz{width: 48%;}
+.buzz{width: 100%;}
+}
+/* ============================= */
+/* ! Layout for mobile(lanscape) version   */
+/* ============================= */
+@media only screen and (max-width: 767px) {
+.buzz-wrap{/*width: 100%;overflow-y:scroll;*/height: 121px; }
+/*.buzz-list{width: 95%;overflow: hidden;height: auto;}*/
+}
+/* ============================= */
+/* ! Layout for mobile(portrait) version   */
+/* ============================= */
+@media only screen and (max-width: 480px) {
+.buzz .top-head h3 {
+    padding:0;
+}
+.dtr-data div{display:inline;}
+}
+/* mobile css ends here*/

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>      
+<!DOCTYPE tiles-definitions PUBLIC  
+    "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"  
+    "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+	<definition name="loginLayout.definition"
+		template="/WEB-INF/jsp/commonForTiles/common_template.jsp">
+		<put-attribute name="header"
+			value="/WEB-INF/jsp/commonForTiles/header.jsp" />
+	</definition>
+	<definition name="newLayout" template="/WEB-INF/jsp/commonForTiles/layout.jsp">
+		<put-attribute name="leftMenu"
+			value="/WEB-INF/jsp/commonForTiles/menu.jsp" />
+		<put-attribute name="header"
+			value="/WEB-INF/jsp/commonForTiles/header.jsp" />
+	</definition>
+	<definition name="searchLayout"
+		template="/WEB-INF/jsp/commonForTiles/layoutForSearch.jsp">
+		<put-attribute name="leftMenu"
+			value="/WEB-INF/jsp/commonForTiles/menu.jsp" />
+		<put-attribute name="header"
+			value="/WEB-INF/jsp/commonForTiles/header.jsp" />
+	</definition>
+	<definition name="nonSubLayout"
+		template="/WEB-INF/jsp/commonForTiles/nonSubLayout.jsp">
+		<put-attribute name="leftMenu"
+			value="/WEB-INF/jsp/commonForTiles/menu.jsp" />
+		<put-attribute name="header"
+			value="/WEB-INF/jsp/commonForTiles/header.jsp" />
+	</definition>
+
+	<definition name="escalate" extends="nonSubLayout">
+		<put-attribute name="title" value="WorkList" />
+		<put-attribute name="body" value="/WEB-INF/jsp/escalate.jsp" />
+		<put-attribute name="pageHeader" value="Escalate" />
+	</definition>
+
+	<definition name="allocate" extends="nonSubLayout">
+		<put-attribute name="title" value="WorkList" />
+		<put-attribute name="body" value="/WEB-INF/jsp/allocate.jsp" />
+		<put-attribute name="pageHeader" value="Allocate" />
+	</definition>
+
+	<definition name="refer" extends="nonSubLayout">
+		<put-attribute name="title" value="WorkList" />
+		<put-attribute name="body" value="/WEB-INF/jsp/refer.jsp" />
+		<put-attribute name="pageHeader" value="Refer" />
+	</definition>
+	
+	<definition name="customerTile" extends="newLayout">
+		<put-attribute name="title" value="Lead Customer Details" />
+		<put-attribute name="body" value="/WEB-INF/jsp/customer.jsp" />
+	</definition>
+	
+	<definition name="customerViewer" extends="newLayout">
+		<put-attribute name="title" value="Lead Customer Details" />
+		<put-attribute name="body" value="/WEB-INF/jsp/customerViewer.jsp" />
+	</definition>
+
+	<definition name="login" template="/WEB-INF/jsp/login.jsp">
+		<put-attribute name="title" value="Login" />
+	</definition>
+
+	<definition name="leadsuccess" extends="searchLayout">
+		<put-attribute name="title" value="Create New Lead" />
+		<put-attribute name="body" value="/WEB-INF/jsp/leadsuccess.jsp" />
+		<put-attribute name="pageHeader" value="New Lead" />
+	</definition>
+
+	<definition name="newlead" extends="searchLayout">
+		<put-attribute name="title" value="New Lead" />
+		<put-attribute name="body" value="/WEB-INF/jsp/newlead.jsp" />
+		<put-attribute name="pageHeader" value="New Lead" />
+	</definition>
+
+
+	<definition name="contact" extends="newLayout">
+		<put-attribute name="title" value="Contact Screen" />
+		<!-- <put-attribute name="menu" value="/WEB-INF/jsp/commonForTiles/menu.jsp"/> -->
+		<put-attribute name="body" value="/WEB-INF/jsp/contact.jsp" />
+	</definition>
+	
+	<definition name="contactViewer" extends="newLayout">
+		<put-attribute name="title" value="Contact Screen" />
+		<!-- <put-attribute name="menu" value="/WEB-INF/jsp/commonForTiles/menu.jsp"/> -->
+		<put-attribute name="body" value="/WEB-INF/jsp/contactViewer.jsp" />
+	</definition>
+	
+	<definition name="contactEscalate" extends="newLayout">
+		<put-attribute name="title" value="Lead Product Screen" />
+		<put-attribute name="body" value="/WEB-INF/jsp/contactEscalate.jsp" />
+	</definition>
+
+	<definition name="dashboard" extends="nonSubLayout">
+		<put-attribute name="title" value="Dashboard" />
+		<put-attribute name="body" value="/WEB-INF/jsp/dashboard.jsp" />
+		<put-attribute name="pageHeader" value="DashBoard" />
+	</definition>
+
+	<definition name="product" extends="newLayout">
+		<put-attribute name="title" value="Lead Product Screen" />
+		<!-- <put-attribute name="menu" value="/WEB-INF/jsp/customermenu.jsp"/> -->
+		<put-attribute name="body" value="/WEB-INF/jsp/product.jsp" />
+	</definition>
+	
+	<definition name="productViewer" extends="newLayout">
+		<put-attribute name="title" value="Lead Product Screen" />
+		<!-- <put-attribute name="menu" value="/WEB-INF/jsp/customermenu.jsp"/> -->
+		<put-attribute name="body" value="/WEB-INF/jsp/productViewer.jsp" />
+	</definition>
+
+	<definition name="escalate" extends="nonSubLayout">
+		<put-attribute name="title" value="WorkList" />
+		<put-attribute name="body" value="/WEB-INF/jsp/escalate.jsp" />
+		<put-attribute name="pageHeader" value="Escalate" />
+	</definition>
+
+	<definition name="allocate" extends="nonSubLayout">
+		<put-attribute name="title" value="WorkList" />
+		<put-attribute name="body" value="/WEB-INF/jsp/allocate.jsp" />
+		<put-attribute name="pageHeader" value="Allocate" />
+	</definition>
+
+	<definition name="refer" extends="nonSubLayout">
+		<put-attribute name="title" value="WorkList" />
+		<put-attribute name="body" value="/WEB-INF/jsp/refer.jsp" />
+		<put-attribute name="pageHeader" value="Refer" />
+	</definition>
+
+	<definition name="error" extends="nonSubLayout">
+		<put-attribute name="title" value="ERROR" />
+		<put-attribute name="body" value="/WEB-INF/jsp/error.jsp" />
+		<put-attribute name="pageHeader" value="Error" />
+	</definition>
+	<definition name="workList" extends="nonSubLayout">
+		<put-attribute name="title" value="WorkList" />
+		<put-attribute name="body" value="/WEB-INF/jsp/worklist.jsp" />
+		<put-attribute name="pageHeader" value="WorkList" />
+	</definition>
+	<definition name="serchallocate" extends="searchLayout">
+		<put-attribute name="title" value="Search And Allocate" />
+		<put-attribute name="body" value="/WEB-INF/jsp/searchandallocate.jsp" />
+		<put-attribute name="pageHeader" value="Search And Allocate" />
+	</definition>
+	<definition name="document" extends="newLayout">
+		<put-attribute name="title" value="Lead Product Screen" />
+		<!-- <put-attribute name="menu" value="/WEB-INF/jsp/customermenu.jsp"/> -->
+		<put-attribute name="pageHeader" value="Document" />
+		<put-attribute name="body" value="/WEB-INF/jsp/document.jsp" />
+	</definition>
+	
+	<definition name="changepassword" extends="newLayout">
+		<put-attribute name="title" value="Lead Password Chnage Screen" />
+		<put-attribute name="pageHeader" value="Password" />
+		<put-attribute name="body" value="/WEB-INF/jsp/changepassword.jsp" />
+	</definition>
+	<!-- Added by Anuj on 18-jan-2017 -->
+	<definition name="travelsummary" extends="nonSubLayout">
+		<put-attribute name="title" value="Travel Summary" />
+		<put-attribute name="body" value="/WEB-INF/jsp/travelsummary.jsp" />
+		<put-attribute name="pageHeader" value="Travel Summary" />
+	</definition>
+	<definition name="dailyactivity" extends="nonSubLayout">
+		<put-attribute name="title" value="Daily Activity" />
+		<put-attribute name="body" value="/WEB-INF/jsp/dailyactivity.jsp" />
+		<put-attribute name="pageHeader" value="Daily Activity" />
+	</definition>
+	<definition name="mapForActivity" extends="nonSubLayout">
+		<put-attribute name="title" value="Daily Activity" />
+		<put-attribute name="body" value="/WEB-INF/jsp/map.jsp" />
+		<put-attribute name="pageHeader" value="Map(Daily Activity)" />
+	</definition>
+	<!-- End -->
+</tiles-definitions>  

@@ -1,0 +1,46 @@
+#appStatusTable_wrapper th{text-align: left;font-size: 14px;color: #000;border-bottom: 1px solid #ccc;}
+#appStatusTable_wrapper td{border-bottom: 1px solid #ccc;font-size: 12px;vertical-align: middle;}
+#appStatusTable_wrapper a{color: #004fb6;}
+.file-name {float: left;margin: 2px 0 0;}
+.status-manage{float: left;margin: 6px 5px 0 0;}
+table.dataTable.no-footer{border-bottom:none !important;}
+.pending-task{float: left;width: 100%;}
+.pending-task li{float: left;width: 25%;padding: 10px 0 30px 0;}
+.pending-task li.mid{margin: 0 12%;}
+.pending-task li.last{padding: 10px 0 15px 0;}
+.pending-task li strong{float: left;font-size: 50px;color: #e74c3c;line-height: 32px;}
+.pending-task li p{float: right;width: 68%;}
+.pending-task li span{float: left;width: 100%;font-size: 14px;color: #4f5259;}
+.pending-task li a{color:#59b337;font-size: 12px;margin: 5px 0 0 0;line-height: 16px;float: left;}
+.pending-task li em{background: url(../../images/icon-sprite.png) no-repeat -78px -983px;float: left;width: 26px;height: 15px;}
+/*============================= 
+! Layout for ipad landscape  
+============================= */
+@media only screen and (max-width: 1024px) {
+.pending-task li{width: 28%;}
+.pending-task li.mid{margin: 0 7%;}
+}
+/* ============================= */
+/*============================= 
+! Layout for ipad portrait  
+============================= */
+@media only screen and (max-width: 992px) {
+.pending-task li.mid{margin: 0;}
+.pending-task li.sum{float: right;}
+.pending-task li{width: 36%}
+.pending-task li.last{padding: 10px 0 30px 0;}
+}
+/* ============================= */
+/* ! Layout for mobile(lanscape) version   */
+/* ============================= */
+@media only screen and (max-width: 767px) {
+.pending-task li{width: 55%;}
+.pending-task li.sum{float: left;}
+}
+/* ============================= */
+/* ! Layout for mobile(portrait) version   */
+/* ============================= */
+@media only screen and (max-width: 479px) {
+.pending-task li{width: 100%;}
+}
+/* mobile css ends here*/

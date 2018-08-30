@@ -1,0 +1,35 @@
+.slider{float: left;width: 65.3%}
+.slider ul{float: left;width: 100%}
+.slider ul li{float: left;width: 100%;}
+.slider ul li div{position: relative;float: left;width: 100%;}
+.slider ul li figure{float: left;width: 100%;}
+.slider ul li span.caption{position: absolute;bottom: 2px;left: 0;background: #0951b0;opacity: 0.8;padding: 10px 2%;width: 96%;color: #fff;font-size: 13px;}
+.slider ul li a{position:absolute;top: 41%;background:url("../../images/icon-sprite.png") no-repeat scroll -76px -338px;display:inline-block;width: 35px;height: 35px; }
+.slider ul li a.left-control{background-position: -65px -362px;float: left;left: 2%;}
+.slider ul li a.right-control{background-position: -65px -397px;float: right;right: 2%;}
+/*============================= 
+! Layout for ipad landscape  
+============================= */
+@media only screen and (max-width: 1024px) {
+
+}
+/* ============================= */
+/*============================= 
+! Layout for ipad portrait  
+============================= */
+@media only screen and (max-width: 992px) {
+.slider{width: 100%}
+}
+/* ============================= */
+/* ! Layout for mobile(lanscape) version   */
+/* ============================= */
+@media only screen and (max-width: 767px) {
+
+}
+/* ============================= */
+/* ! Layout for mobile(portrait) version   */
+/* ============================= */
+@media only screen and (max-width: 479px) {
+
+}
+/* mobile css ends here*/

@@ -1,0 +1,38 @@
+.manage{cursor:pointer;float: left;width: 97%;background: #383a3f;padding: 15px 1.5%;color: #fff;font-size: 16px;font-weight: normal;}
+.manage span{display:inline-block;margin: 0 0 0 1%;background:url(../../images/small-icon.png) no-repeat 0 -119px;width: 17px;height: 11px;}
+.properties{float: left;width: 95%;padding: 50px 2.5%;background: #ededed;position: relative;}
+.properties li{width: 22%;margin: 0 1.5%;float: left;text-align: center;}
+.properties li figure{background:#fff;border: 3px solid #59b337;border-radius: 58px;padding: 15px;float: left;margin:0 28% 30px;box-shadow: 0px 5px 3px #827b7b; }
+.properties li strong{color: #3f3f3f;font: normal 16px/16px 'open_sansbold',arial;float: left;width: 100%}
+.properties li p{font-size: 14px;line-height: 20px;color: #3f3f3f;padding: 5px 0 0 0;float: left;width: 100%}
+.properties li.left-arr,.properties li.right-arr{cursor:pointer;position: absolute;background: url(../../images/slide-arrow.png) no-repeat 0 0;width: 20px;height: 40px;top: 40%;width: 24px;margin: 0;}
+.properties li.left-arr{background-position: 0 0;left: 1%}
+.properties li.right-arr{background-position: 0 -41px;right: 1%;}
+/*============================= 
+! Layout for ipad landscape  
+============================= */
+@media only screen and (max-width: 1024px) {
+
+}
+/* ============================= */
+/*============================= 
+! Layout for ipad portrait  
+============================= */
+@media only screen and (max-width: 992px) {
+
+}
+/* ============================= */
+/* ! Layout for mobile(lanscape) version   */
+/* ============================= */
+@media only screen and (max-width: 767px) {
+.properties {background: none repeat scroll 0 0 #ededed;float: left;padding: 50px 2.5%;width: 95%;}
+.properties li {margin: 0 1.5% 20px;width: 47%;}
+.properties li.left-arr, .properties li.right-arr{top: 15%;}
+}
+/* ============================= */
+/* ! Layout for mobile(portrait) version   */
+/* ============================= */
+@media only screen and (max-width: 479px) {
+.properties li {width: 97%;}
+.properties li.left-arr, .properties li.right-arr{top: 8%;}
+}

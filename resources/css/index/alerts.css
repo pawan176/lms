@@ -1,0 +1,33 @@
+.inner-link ul.alert-task li {padding: 0 0 15px;}
+.renewal {background: url("../../images/icon-sprite.png") no-repeat scroll -83px -761px;float: left;height: 23px;width: 23px;}
+.bday {background: url("../../images/icon-sprite.png") no-repeat scroll -82px -786px rgba(0, 0, 0, 0);float: left;height: 23px;width: 23px;}
+.inner-link.alert{height: auto;display: none;padding: 20px 5% 0}
+.inner-link ul.alert-task li{padding: 0 0 15px 15px}
+/*============================= 
+! Layout for ipad landscape  
+============================= */
+@media only screen and (max-width: 1024px) {
+
+}
+/* ============================= */
+/*============================= 
+! Layout for ipad portrait  
+============================= */
+@media only screen and (max-width: 992px) {
+
+}
+/* ============================= */
+/* ! Layout for mobile(lanscape) version   */
+/* ============================= */
+@media only screen and (max-width: 767px) {
+
+}
+/* ============================= */
+/* ! Layout for mobile(portrait) version   */
+/* ============================= */
+@media only screen and (max-width: 479px) {
+
+}
+
+
+/* mobile css ends here*/

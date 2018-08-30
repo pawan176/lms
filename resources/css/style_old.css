@@ -1,0 +1,2198 @@
+body {
+  overflow-y: scroll;
+}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+ */
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+
+svg:not(:root) {
+  overflow: hidden;
+}
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+
+button::-moz-focus-inner, input::-moz-focus-inner {
+ border: 0;
+ padding: 0;
+}
+button, html input[type="button"], /* 1 */ input[type="reset"], input[type="submit"] {
+  -webkit-appearance: button; /* 2 */
+  cursor: pointer; /* 3 */
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+ul {
+  padding: 0;
+  list-style: none;
+}
+/*nORMALIZE END*/
+/*ul li:nth-last-child(1){
+border-bottom: 0
+}*/
+ul li:nth-last-child(1) a {
+  border-bottom: 0
+}
+/*ul li:nth-child(1){
+border-top: 0;
+}*/
+ul li:nth-child(1) a {
+  border-top: 0;
+}
+/*************global**********************/
+header {
+  position: relative;
+  width: 100%;
+  z-index: +999;
+}
+.contactHeader{
+  background: #fff none repeat scroll 0 0;
+    float: left;
+    margin: 50px 0 0;
+    width: 100%;
+    border-bottom: 5px #69a0b1  solid;
+    position: fixed;
+}
+.contactHeader .mainHeading{
+ 
+  float: left;
+}
+.contactHeader .mainHeading h1{
+ border-right: 1px solid #ccc;
+    color: #003d54;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 18px;
+    margin: 0;
+    padding: 9px 15px;
+  }
+.saveBtnList{
+  float: right;
+}
+.saveBtnList ul{margin:0;}
+.saveBtnList ul li{padding: 0px; display: inline-block;}
+.saveBtnList ul li .subheader-btn {
+    float: left;
+    height: 35px;
+    padding: 8px 16px;
+}
+.searchList{
+  float: right;
+}
+.mainheader{
+  position: fixed;
+  width: 100%;
+  height: 50px;
+}
+.subheader{
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  margin-top: 50px;
+ }
+
+.padding-top-container {
+    margin-top: 110px;
+}
+
+.new-top
+{
+  margin-top: 76px;
+}
+.contact-top{
+  margin-top: 100px;
+}
+.subheaderRightPanel {
+  float: right;
+  position: relative;
+}
+.subheaderRightPanel ul{
+  float: right;
+}
+.subheaderRightPanel ul li{
+  float: left;
+  display: inline-block;
+}
+.subheaderRightPanel ul li .subheader-btn{
+ padding: 6px 5px;
+}
+.subheaderLefttPanel {
+  float: left;
+  position: relative;
+  margin-left: -15px;
+}
+.topMenu {
+  float: left;
+  margin-left:15px;
+}
+.topMenu ul {
+  margin:0;
+  padding: 0;
+}
+.topMenu ul li {
+  list-style: none;
+  display: inline-block;
+  border-right: #ccc solid 1px;
+}
+.topMenu ul li a button {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  /* border: 1px solid #ccc;*/
+    color: #333;
+  line-height: 22px;
+  margin: 3px 0 0;
+  padding: 5px 5px !important;
+  text-transform: uppercase;
+}
+.topMenu ul li a button.active {
+  background: #69a0b1;
+  color:#fff;
+  margin-top: 0px;
+  border-radius: 0;
+  line-height: 25px;
+}
+.heading {
+  background: #f9f9f9 none repeat scroll 0 0;
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 3px 0 5px -12px !important;
+  padding: 2px 5px;
+
+}
+.nav > li > a.heading{
+  border:#ccc solid 1px;
+}
+.headingTop {
+  margin: 0;
+  padding:5px 5px;
+  font-size: 22px;
+}
+.borderBox {
+  background: #f0f0f0 none repeat scroll 0 0;
+  border: 1px solid #ccc;
+  clear: both;
+  float: left;
+  margin: 8px 0 0 -14px !important;
+  padding: 8px 0;
+  width: 103%;
+}
+.borderBox ul {
+  margin: 0;
+  padding: 0;
+}
+.borderBox ul li {
+  display: inline-block;
+  float: left;
+  margin:0 5px;
+}
+.borderBox input[type="text"] {
+
+}
+.searchArea {
+  margin-top:15px;
+  border: #ccc solid 1px;
+  padding: 8px;
+}
+.table-striped thead {
+  background: #f0f0f0;
+  padding: 15px 10px;
+}
+.bs-example.overCover {
+  float: left;
+  overflow-x: scroll;
+  width: 100%;
+}
+.addressField{
+
+}
+.addressField textarea{
+  width: 85%;
+  height: 27px;
+}
+.addressField .minWidth {
+    float: left;
+    width: 14% !important;
+}
+/*.minWidthPin {
+  width:40% !important;
+}*/
+.remarkProperty textarea{
+  height: 25px;
+}
+.minWidthPin {
+    width: 110px;
+}
+.minWidth {
+  width:25.59% !important;
+}
+.minWidthSelect {
+  width:25% !important;
+}
+.minWidthLabel {
+  width:16% !important;
+  line-height: 17px !important;
+  float: left;
+}
+.minWidthLabel1 {
+  width: 35.45% !important;
+  float: left;
+}
+
+.mainheader {
+  box-shadow: 0 0 3px #132f33 inset;
+  height: 50px;
+  background: #000012; /* Old browsers */
+  background: -moz-linear-gradient(left, #000012 0%, #3aa2c2 44%, #036180 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #000012), color-stop(44%, #3aa2c2), color-stop(100%, #036180)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left, #000012 0%, #3aa2c2 44%, #036180 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left, #000012 0%, #3aa2c2 44%, #036180 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(left, #000012 0%, #3aa2c2 44%, #036180 100%); /* IE10+ */
+  background: linear-gradient(to right, #000012 0%, #3aa2c2 44%, #036180 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000012', endColorstr='#036180', GradientType=1 ); /* IE6-9 */
+  background-size: 100% auto;
+}
+.pageHeading {
+  float: left;
+}
+.fr {
+  float: right;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+  font-weight: bold;
+  padding:0
+}
+h1 {
+  font-size: 16px;
+  color: #fff;
+  line-height: 47px;
+}
+
+.lead-sidepanel {
+  border-radius: 0 0 0 19px;
+  cursor: pointer;
+  margin-top: 10.5%;
+  position: fixed;
+  right: 0;
+}
+/*colors:*/
+ .darkblue {
+  color: #003d54;
+}
+.mainheader {
+  border-bottom: solid 1px #0059a4;
+  padding: 0 1.3% 0 0
+}
+.mainheader h1 {
+  color: #fff;
+  font-size: 20px;
+  margin-top: 14px;
+  padding: 0 0 0 10px;
+}
+.mainheader img.mainmenuimg {
+  float: left;
+  padding: 17px 12px;
+  cursor: pointer;
+}
+.subheader {
+  background: #fff;
+  border-bottom: solid 5px #69a0b1;
+  height: 38px;
+  padding: 0 1.3%;
+}
+.header-rightpanel {
+  float: right
+}
+.header-rightpanel-mobile {
+  float: right;
+  display: none;
+}
+.userspanel {
+  background: #003b52;
+  height:50px;
+  float: right;
+  padding: 0 15px;
+}
+.circleimg {
+  width: 32px;
+  height: 32px;
+  border-radius: 100px;
+  float: left;
+}
+.savee {
+}
+.prev-lead {
+  border-left: #ccc solid 1px;
+}
+.subheader-btn {
+  background-color: #e1e9eb;
+  border-right: 1px solid #ccc;
+  color: #003d54;
+  float: right;
+  font-weight: bold;
+ /* height: 33px;*/
+  padding: 8px 5px 5px;
+  position: relative;
+  text-decoration: none;
+}
+.prev-lead-icon {
+  background: url(../img/sprite1.png) left -48px no-repeat;
+  width: 38px;
+  height: 17px;
+  float: left;
+}
+.next-lead-icon {
+  background: url(../img/sprite1.png) left -74px no-repeat;
+  width: 38px;
+  height: 17px;
+  float: left;
+}
+.smallinput {
+  margin-right: 5px;
+  width: 14% !important;
+}
+.prevlead-tooltip, .nextlead-tooltip, .savee-tooltip, .saveandexit-tooltip {
+  background: #003b52 none repeat scroll 0 0;
+  white-space: pre;
+  border-radius: 4px;
+  color: #eee;
+  display: none;
+  font-weight: bold;
+  height: 35px;
+  line-height: 35px;
+  margin-top:  34px;
+  padding: 0 17px !important;
+  position: absolute;
+  right: 53px;
+  z-index: 100000
+}
+/***********************************contact *****************/
+.textwidth {
+    height: 25px;
+    width: 95%;
+}
+.contactList{margin-top: 2px;}
+.contactList .listOne{
+  width:25%;
+  float: left;  
+}
+.contactList .listOne:nth-child(1){
+  background: #C0D6E4;
+}
+.contactList .listOne:nth-child(2){
+  background: #ffc0cb;
+}
+.contactList .listOne:nth-child(3){
+  background:#beb5cb;
+}
+.contactList .listOne:nth-child(4){
+  background: #cbb5b7;
+}     
+.contactList .listOne li, .leadstatus li{
+  width:48%;
+  float: left;
+  padding: 2px 5px;
+}
+.leadstatus span{
+  color:red;
+}
+/*.contactList ul {
+  margin:0;
+  padding: 0;
+  border-bottom:#ccc solid 1px;
+}*/
+/*.contactList ul:first-child {
+  border-top:#ccc solid 1px;
+}*/
+
+.contactList .listOne li label {
+  font-size: 11px;
+  margin-bottom:0;
+}
+/*.contactList ul li:nth-child(even) {
+  border-right:#ccc solid 1px;
+}*/
+.contactList .listOne input[type="text"], .contactList .listOne select, .leadstatus input[type="text"], .leadstatus select  {
+  width:53%;
+  margin: 2px 0;
+}
+
+.leadstatus {
+}
+.leadstatus label {
+  line-height: 10px;
+  width:46%;
+  float: left;
+  display: block;
+  font-size: 11px;
+  margin: 8px 0 0 0;
+}
+/*.contactList ul li {
+  border:#ccc solid 1px;
+}*/
+/*************************************/
+.buttonHeading {
+  margin: 20px 0;
+  border-bottom: #ccc solid 1px;
+}
+.worklistbtn {
+  margin:-5px 5px !important;
+  float: right;
+}
+.worklistbtn .saveBtn1 {
+    float: left;
+    margin: 28px 7px 1px;
+    padding: 2px 12px;
+}
+.worklistbtn .toggle-list {
+  float: left;
+  margin-top: 27px;
+}
+.btnPosition {
+  padding: 5px 0;
+}
+.btnPosition button {
+  margin: 0px 5px;
+}
+.bs-example {
+  border: #ccc solid 1px;
+  overflow-x: scroll;
+}
+.bs-example table tr td:odd {
+background: #f0f0f0;
+}
+.subheaderLefttPanel h1 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 7px 0;
+  text-transform: uppercase;
+}
+/*********new lead************/
+.contactAddres{display: inline-block; width: 100%;}
+
+.contactAddres div:nth-child(1){
+  /*border-right: #ccc solid 1px;
+  border-left: #ccc solid 1px;*/
+  background: #f9f9f9;
+  padding: 5px 0;
+}
+.deletchk{width: 0%; float: none;}
+.contactAddres input[type="checkbox"], .contactAddres input[type="text"], .contactAddres select
+{
+ margin: 0 4px;
+}
+.contactAddres input[type="button"] {
+    border: medium none !important;
+}
+.contactAddres input[type="text"], .contactAddres select {
+    margin: 0 28px;         
+}
+.contactAddres span{
+  color:red;
+}
+.contBtn{ float: right;  padding-right: 15px; width: 100%; clear: right;}
+.contBtn input, .buttonHeading button
+{
+  float: right;
+  border: none;
+  margin: 1px;            
+  padding: 3px 5px;
+}
+.row.add {
+    background: #f0f0f0 none repeat scroll 0 0;
+    margin-top: 15px;
+    padding: 15px 0;
+}
+#residenceAddress, #officeAddress, #otherAddress{display: block;}
+#residence, #office, #other{ width:40px; height:20px;  float: left; margin:7px 2px; }
+
+.desboardLead {
+  margin: 0 auto;
+  width: 50%;
+}
+.piramid {
+  text-align: center;
+}
+.piramid ul {
+  margin:0;
+  padding: 0;
+}
+.piramid ul li {
+  background-image: linear-gradient(to bottom, #428bca 0%, #2d6ca2 100%);
+  background-repeat: repeat-x;
+  border-color: #2b669a;
+  line-height: 30px;
+  color:#fff;/* width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 100px solid red;*/
+}
+.piramid ul li label {
+  color:#fff;
+  font-size: 14px;
+}
+.trackerList {
+  border-radius: 5px;
+  border:#ccc solid 1px;
+  padding: 5px 25px;
+  float: right;
+  display: none;
+}
+.trackerList ul {
+  margin:0;
+  padding: 0
+}
+.trackerList ul li {
+  border-bottom: #ccc solid 1px;
+}
+.dobCalc {
+  margin-left: -20px;
+  margin-top: 3px;
+  cursor: pointer;
+}
+.calenderView, .treeView {
+  border: #ccc solid 1px;
+  background: #f9f0f9;
+  padding-bottom: 2px;
+}
+.treeView .viewCalender{
+  padding: 0 0 0 25px;
+  font-size: 20px;
+}
+
+.treeView  li li a{
+  padding: 0 0 0 35px;
+  color: #000;
+  font-size: 15px;
+  line-height: 25px;
+
+}
+.treeView  li li a:hover
+{
+  text-decoration: none;
+  cursor: pointer;
+}
+.rowBg {
+  background: #f0f0f0;
+  padding: 15px 0;
+  margin-bottom: 20px;
+}
+#embeddedExample {
+  margin: 0 8%;
+}
+.calenderView > h1 {
+  padding:8px 15px;
+  font-size:18px;
+  margin:0;
+  background: #ccc;
+}
+.calenderView > p {
+  padding:5px 15px
+}
+.today {
+  border:#ccc solid 1px;
+  background: #fff;
+  border-radius: 3px;
+  padding: 0 15px;
+  margin-bottom: 5px;
+  float: left;
+}
+#output {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 0 15px;
+}
+.oneDayView {
+  border:#ccc solid 1px;
+  margin-bottom: 10px;
+  padding:0 0px 20px;
+  background: #f0f0f0;
+  clear: both;
+  float: left;
+  width: 100%;
+}
+.oneDayView ul {
+  margin:0;
+  padding: 0
+}
+.oneDayView ul li {
+  border-bottom: 1px solid #ccc;
+  display: block;
+  float: left;
+  padding: 5px;
+  width: 100%;
+}
+.selectRow {
+  background: #d2d2d2;
+}
+.oneDayView ul li span {
+  text-align: center;
+  border-right: #ccc solid 1px;
+  padding: 10px;
+  float: left;
+  width: 80px;
+}
+.oneDayView ul li p {
+  float: left;
+}
+.calc {
+  width: 25px;
+  height: 25px;
+  margin-left: -35px;
+}
+.calc span {
+  cursor: pointer;
+  margin-left: -25px;
+}
+input[type=text] {
+  border: 1px solid #c7c7c7;
+  border-radius: 3px;
+  padding: 2px 5px;/*  width: 48%;*/
+}
+.textHide {
+  background: #f0f0f0 none repeat scroll 0 0;
+  border: 1px solid #ccc;
+  display: block;
+  margin-top: 0;
+  position: absolute;
+  z-index: 99999;
+  width: 87%;
+  display: none;
+}
+.textHide input {
+  width: 100% !important;
+}
+label {
+  font-isize: 11px;
+  color: #0d4660;
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin:0;
+}
+select {
+  font-size: 12px;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -webkit-appearance: none;
+  background: url("../img/select-bg.png") no-repeat scroll right 1px rgba(0, 0, 0, 0);
+  border: 1px solid #c7c7c7;
+  border-radius: 3px;
+  padding: 2px 32px 3px 6px;
+}
+.loginWindow {
+  float: left;
+  width: 100%;
+}
+.loginWindow .loginBox {
+  background: #ccc none repeat scroll 0 0;
+  border-radius: 3px;
+  margin: 10% auto;
+  width: 45%;
+}
+.loginWindow .loginHeading {
+  font-size: 13px;
+  padding: .5% 2%;
+  background: none repeat scroll 0 0 #003b52;
+}
+.loginWindow .loginTitle {
+  background: none repeat scroll 0 0 #003b52;
+  border-radius: 3px 3px 0 0;
+  color: #fff;
+  float: left;
+  font-weight: bold;
+  padding: 1% 2%;
+  width: 96%;
+}
+.loginWindow .loginTitle > h1 {
+  float: left;
+  line-height: 29px;
+}
+.loginWindow .loginArea {
+  float: left;
+  font-size: 13px;
+  padding: 2%;
+  width: 100%;
+  background: #ccc;
+  border:#003b52 solid 1px;
+}
+.loginWindow .loginArea li {
+  clear: both;
+  width: 100%;
+  float: left;
+}
+.loginArea input[type="password"], .loginArea input[type="text"] {
+  border: 1px solid #c7c7c7;
+  border-radius: 3px;
+  padding: 8px;
+  float: left;
+  width: 68%
+}
+.loginArea label {
+  width:30%;
+  display: block;
+  float: left;
+  font-size: 12px;
+}
+.loginButton {
+  margin: 0 auto;
+  width: 45%;
+}
+.loginButton input[type="submit"] {
+  margin: 0 0 0 15px;
+  width: 95%;
+  background: #003b52;
+  padding: 2% 5%;
+  border:none;
+  color:#fff;
+  font-size: 20px;
+  border-radius: 2px;
+}
+.loginButton input[type="submit"]:hover {
+  background: #304960;
+}
+.forgotText {
+  font-size: 12px;
+  color:#003b52;
+}
+/**************worklist******************/
+.buttonHeading .nav-tabs{
+  border: none !important;
+}
+.takesCol {
+    margin-top: 10px;
+    width: 10.5% !important;
+}
+.takesText textarea{
+  margin-top: 10px;
+  width: 107% !important;
+}
+.remarksCol {
+  margin-top: 10px;
+}
+.remarksCol textarea {
+  width: 93%;
+}
+.searchMenu {
+  background: #f0f0f0;
+}
+.searchMenu li select:nth-child(3) {
+  margin: 0 30px;
+}
+.remark {
+}
+.searchArea .saveBtn1.btn.btn-primary, .searchbtn1.saveBtn1.btn.btn-primary {
+  padding: 2px 12px;
+}
+.saveBtn1 {
+  margin: -4px 0 5px;
+}
+.remarkCol .saveBtn {
+  lear: left;
+  margin: 20px 0 15px;
+}
+.orderByClass {
+  margin-left: 20px;
+}
+.searchButton {
+  margin: 5px 0;
+  width:100%;
+  float:left;
+  clear: both;
+  border-radius: 3px;
+  padding: 2px 0;
+}
+.searchButton ul {
+  margin:0 auto;
+}
+.searchButton ul li {
+  display: inline-block;
+}
+.searchButton ul li a {
+  text-decoration: none;
+  color:#fff;
+  padding:10px 30px;
+  float: left;
+}
+.searchButton ul li button {
+  padding: 8px 35%;
+}
+.searchButton ul li.refer {
+  background: #00ff00;
+  border-radius:3px;
+}
+.searchButton ul li.escalted {
+  background: #f00;
+  border-radius:3px;
+}
+.searchButton ul li.mylead {
+  background: #0000ff;
+  border-radius:3px;
+}
+.close-header-rightpanel {
+  display: none
+}
+/* Example Styles for Demo */
+  
+.subheader .etabs {
+  float: right;
+  margin-bottom: 0 !important;
+  margin-left: 15px;
+  margin-right: 0 !important;
+  margin-top: 0 !important;
+  position: relative;
+  right: auto;
+  width: auto;
+  border: none !important;
+  box-shadow: none !important;
+  border-radius: 0 !important
+}
+.subheader .etabs a {
+  height: 48px !important;
+  border-bottom: 0 !important
+}
+.subheader .lead-sidepanel-cancel {
+  display: none;
+}
+.etabs {
+  border: 1px solid #97a8ad;
+  box-shadow: 0 0 3px #ccc;
+  margin: 13.7% 0 0;
+  padding: 0;
+  z-index: 1000;
+  position: fixed;
+  right: -62px;
+  width: 54px;
+}
+.etabs .tab {
+  border-color: #999 #999 -moz-use-text-color;
+  border-image: none;
+  border-width: 1px 1px medium;
+  display: inline-block;
+}
+/* .etabs .tab { display: inline-block; zoom:1; *display:inline; background: #eee; border: solid 1px #999; border-bottom: none; }*/
+    .tab a {
+  font-size: 14px;
+  line-height: 2em;
+  display: block;
+  padding: 0 10px;
+  outline: none;
+}
+.tab:hover .tab a {
+  text-decoration: underline;
+  display: block;
+}
+.tab.active {
+  background: #fff;
+  position: relative;
+}
+.tab a.active {
+  font-weight: bold;
+  background:#fff;
+}
+.tab-container .panel-container {
+  background: #fff;
+}
+.panel-container {
+  margin-bottom: 10px;
+}
+
+/* .mainhheader{height: 65px; background: url(../img/headerbg.png) left top repeat-y; background-size: 100% auto;} */
+
+
+.currentdate {
+  color: #fff;
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+.userpic {
+  float: left;
+  margin-top: 0px;
+  cursor: pointer;
+}
+.downarrow {
+  background: url(../img/sprite1.png) left top no-repeat;
+  width: 11px;
+  height: 6px;
+  float: left;
+}
+.headerarrowadjust {
+  margin-left: 5px;
+  margin-top: 20px;
+}
+.rightpanel-more-outer {
+  /* border-left: 1px solid #333;*/
+    float: left;
+  height: 26px;
+  margin-left: 0px;
+  margin-top: 10px;
+  padding-left: 20px;
+  cursor: pointer;
+  position: relative;
+}
+.rightpanel-more {
+  margin-top: 4px;
+  background: url(../img/sprite1.png) right top no-repeat;
+  width: 12px;
+  height: 12px;
+  float: left;
+}
+.contact1 {
+  width: 31px;
+  height: 22px;
+  background: url(../img/sprite1.png) left -22px no-repeat;
+  float: left;
+}
+.alertt1 {
+  background-color: #fff;
+  border-radius: 100px;
+  border-top: 1px solid #d3d3d3;
+  float: right;
+  height: 32px;
+  margin-right: 40px;
+  margin-top: 12px;
+  position: relative;
+  width: 32px;
+}
+.close-header-rightpanel-icon {
+  margin-left: 7px;
+}
+.notifs, .mailalerts {
+  background: none repeat scroll 0 0 #003b52;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  height: 26px;
+  left: 33px;
+  line-height: 26px;
+  min-width: 21px;
+  padding: 0 5px;
+  position: absolute;
+  text-align: center;
+  top: -6px;
+}
+.mail-icon {
+  width: 22px;
+  height: 16px;
+  float: left;
+  background: url(../img/sprite1.png) left -125px no-repeat;
+  margin-left: 5px;
+  margin-top: 7px;
+}
+.bell-icon {
+  width: 18px;
+  height: 22px;
+  float: left;
+  background: url(../img/sprite1.png) right -122px no-repeat;
+  margin-left: 6px;
+  margin-top: 5px;
+}
+.customer-icon {
+  background: url(../img/sprite1.png) left -185px no-repeat;
+  float: left;
+  height: 26px;
+  margin-left: 4px;
+  margin-top: 13px;
+  width: 26px;
+}
+.products-icon {
+  background: url(../img/sprite1.png) left -226px no-repeat;
+  float: left;
+  height: 38px;
+  margin-left: 3px;
+  margin-top: 9px;
+  width: 29px;
+}
+.contact-icon {
+  background: url(../img/sprite1.png) left -272px no-repeat;
+  float: left;
+  height: 33px;
+  margin-left: 3px;
+  margin-top: 9px;
+  width: 30px;
+}
+.document-icon {
+  background: url(../img/sprite1.png) left -313px no-repeat;
+  float: left;
+  height: 31px;
+  margin-left: 3px;
+  margin-top: 9px;
+  width: 25px;
+}
+.lead-menu span {
+  background: url(../img/sprite1.png) left -150px no-repeat;
+  float: left;
+  height: 21px;
+  width: 18px;
+}
+.etabs li {
+  border: medium none;
+  float: left;
+  padding:0 10px;
+  border-right: solid 1px #ccc;
+  background: none repeat scroll 0 0 #dae1e3;
+}
+.etabs a {
+  height: 52px;
+  line-height: 52px;
+  text-decoration: none;
+}
+.etabs li:last-child a {
+  border-bottom: medium none;
+}
+#tab1 span {
+}
+.content {
+  margin-top: 116px;
+  float: left;
+}
+.list-header-btn {
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #888;
+  margin: 6px 10px;
+  padding: 5px 20px;
+  text-decoration: none;
+.  cursor: pointer;
+}
+.list-header-btn:hover {
+  background: #dfdfdf;
+  color:#999;
+}
+.list-content-btn {
+  cursor: pointer;
+  background: #003b52;
+  border: 1px solid #003b52;
+  border-radius: 4px;
+  color: #fff;
+  margin: 0px 10px;
+  padding: 0px 20px;
+  text-decoration: none;
+.  cursor: pointer;
+}
+.list-header-style1 {
+  background-color: #fff;
+  border-color: #d7d8de;
+  border-radius: 4px 4px 0 0;
+  border-style: solid;
+  border-width: 1px;
+  height: 42px;
+  padding: 0 25px;
+}
+.list-header-style1 ul {
+  margin: 6px 0 0;
+}
+.list-header-style2 {
+  background-color: #f0f0f0;
+  border-color: #d7d8de;
+  border-radius: 4px 4px 0 0;
+  border-style: solid;
+  border-width: 1px;
+  height: 42px;
+  padding: 0 25px;
+}
+.list-content li {
+  font-size: 12px;
+  line-height: 26px;
+  padding: 0 0.4%;
+}
+.list-header h1 {
+  color: #036180;
+  font-size: 14px;
+  line-height: 42px;
+  float: left;
+}
+.content {
+  padding: 1.3%;
+  width: 97.4%;
+}
+.toggle-list {
+  background-image: linear-gradient(to bottom, #fff 0%, #e0e0e0 100%);
+  background-repeat: repeat-x;
+  border-color: #ccc;
+  text-shadow: 0 1px 0 #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  float:right;
+  height: 27px;
+  padding: 0 0;
+  width: 33px;
+}
+.toggle-tracker {
+  background-image: linear-gradient(to bottom, #fff 0%, #e0e0e0 100%);
+  background-repeat: repeat-x;
+  border-color: #ccc;
+  text-shadow: 0 1px 0 #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  float:right;
+  height: 33px;
+  padding: 2px 3px;
+  width: 45px;
+}
+.plus-icon1 {
+  background: url("../img/sprite1.png") no-repeat right -149px;
+  float: left;
+  height: 14px;
+  margin-left: 8px;
+  margin-top: 6px;
+  width: 15px;
+}
+.minus-icon1 {
+  float: left;
+  background: url(../img/sprite1.png) right -172px no-repeat;
+  width: 10px;
+  height: 4px;
+  margin-left: 12px;
+  margin-top: 11px;
+}
+.list-content ul, .advanceSearch ul {
+  border-bottom: 1px solid #ccc;
+  float: left;
+  margin: 0;
+  padding: 9px 1.5%;
+  width: 97%;
+}
+.list-content, .advanceSearch {
+  border-radius: 0 0 5px 5px;
+  border: 1px solid #d7d8de;
+  padding: 10px 0 0;
+  float: left;
+  margin-bottom: 15px;
+  width: 100%;
+}
+.advanceSearch li {
+  display: inline-block;
+}
+.saveBtn, .resetBtn {
+  padding: 8px 20px;
+  border:none;
+  background: #a9a9a9;
+  color:#fff;
+}
+.resetBtn {
+  background: green;
+}
+/* .list-content ul li:nth-child(1) {
+    padding-left: 25px;
+} */
+
+
+.list-content ul:nth-last-of-type(1) {
+  border-bottom: medium none !important;
+}
+.lead-sidepanel-cancel {
+  background: #003b52 none repeat scroll 0 0 !important;
+  border-radius: 0 0 0 19px;
+  bottom: -53px;
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  width: 36px;
+}
+.lead-sidepanel-cancel span {
+  margin-left: 8px;
+  margin-top: 17px;
+  background: url(../img/sprite1.png) right -22px no-repeat;
+  width: 20px;
+  height: 15px;
+  float: left;
+}
+.etabs li:nth-child(1), .etabs li:nth-child(1) a {
+  border-radius: 0px 0 0;
+}
+.saveandexit-icon {
+  background: url(../img/sprite1.png) right -96px no-repeat;
+  width: 29px;
+  height: 21px;
+  float: left;
+}
+.saveandexit {
+  background-color: #e1e9eb;
+  /* border-left: 1px solid #ccc;*/
+    border-right: 1px solid #ccc;
+  color: #003d54;
+  float: right;
+  font-weight: bold;
+  padding: 14px;
+  text-decoration: none;
+}
+.savee-icon {
+  background: url(../img/sprite1.png) left -96px no-repeat;
+  width: 21px;
+  height: 21px;
+  float: left;
+  color: #003d54;
+}
+.savee {
+  background-color: #e1e9eb;
+  /*border-left: 1px solid #ccc;*/
+    border-right: 1px solid #ccc;
+  color: #003d54;
+  float: right;
+  font-weight: bold;
+  padding: 14px;
+  text-decoration: none;
+}
+.lead-menu {
+  position: fixed;
+  border: solid 1px #ccc;
+  border-right: none;
+  background-color: #fff;
+  border-radius: 5px 0 0 5px;
+  float: right;
+  padding: 14px;
+}
+.tablular-list {
+  float: left;
+  width: 100%;
+}
+.list-content-value {
+  float: left;
+  text-transform: uppercase;
+  line-height: 30px;
+}
+.tablular-list label {
+  line-height: 17px;
+  margin-top: 7px;
+}
+/* .list-content input[type="text"] {
+    width: 46%;
+} */
+
+
+.usermenu-mobile {
+  float: left;
+  padding: 3px 15px 10px
+}
+.usermenu-mobile > img {
+  margin-top: 18px;
+}
+.etabs li:nth-child(1) {
+  border-left: #ccc solid 1px;
+}
+.etabs li a:nth-child(2) {
+  font-weight: bold;
+  background: #003b52;
+  border-radius: 4px;
+  color: #eee;
+  height: 35px !important;
+  line-height: 35px;
+  margin-top: 0px;
+  padding: 0px 17px !important;
+  position: absolute;
+  /* right: 63px;*/
+  display: none;
+}
+.tooltip-arrow {
+  background: rgba(0, 0, 0, 0) url("../img/tooltip-arrow-up-right.png") no-repeat scroll right bottom;
+  float: left;
+  height: 10px !important;
+  left: 0;
+  position: absolute;
+  top: -7px;
+  width: 9px !important;
+  border-style:none !important;
+}
+.tooltip-arrow-up-right {
+  background: url(../img/tooltip-arrow-up-right.png) right top no-repeat;
+  width: 11px;
+  height: 9px;
+  float: left;
+  position: absolute;
+  right: -2px;
+  top: -3px;
+}
+.mainmenu-bg1 li a {
+  color: #333 !important;
+}
+.mainmenu-bg1 {
+  left:-20%;
+  background: url(../img/menu-bg.png) left top repeat-x !important;
+  color: #eee;
+  display: none;
+  float: left;
+  height: 100%;
+  margin-top: 116px;
+  position: fixed;
+  width: 20%;
+}
+.mainmenu {
+  left:-20%;
+  background: #101010;
+  color: #eee;
+  display: none;
+  float: left;
+  height: 100%;
+  margin-top: 88px;
+  position: fixed;
+  width: 20%;
+  z-index: +999;
+}
+.mainmenu ul li {
+  width: 100%;
+  float: left;
+  border-bottom: 1px solid #3e3e3e;
+}
+.mainmenu ul li a {
+  line-height: 23px;
+  color: #00aeff;
+  float: left;
+  padding: 20px 5%;
+  text-decoration: none;
+  width: 90%;
+}
+.mainmenu ul ul {
+  background: #3e3e3e !important;
+  float: left;
+  width: 100%;
+  display: none;
+}
+.mainmenu ul ul li a {
+  border-bottom: 1px solid #292929;
+  color: #ccc !important;
+  padding: 15px 5% !important;
+}
+.mainmenu > ul {
+  float: left;
+  width: 100% !important;
+}
+.dashboard-icon {
+  background: url(../img/sprite1.png) right -185px no-repeat;
+  width: 27px;
+  height: 27px;
+  float: left;
+  margin-right: 10px;
+}
+.leads-icon {
+  background: url(../img/sprite1.png) right -223px no-repeat;
+  width: 27px;
+  height: 30px;
+  float: left;
+  margin-right: 10px;
+}
+.worklist-icon {
+  background: url(../img/sprite1.png) right -291px no-repeat;
+  width: 27px;
+  height: 30px;
+  float: left;
+  margin-right: 10px;
+}
+.settings-icon {
+  background: url(../img/sprite1.png) right -260px no-repeat;
+  width: 27px;
+  height: 30px;
+  float: left;
+  margin-right: 10px;
+}
+.list-content.table-responsive {
+  padding: 0 !important
+}
+.alert-flyoutmenu {
+  z-index: 1000;
+  left: -43px;
+  position: absolute;
+  top: 55px;
+  width: 185px;
+  display: none;
+}
+.alert-flyoutmenu ul {
+  padding:0;
+  margin: 0;
+  border: 1px solid #97a8ad;
+}
+.alert-flyoutmenu ul {
+  background: none repeat scroll 0 0 #dae1e3;
+  border: 1px solid #97a8ad;
+  border-radius: 4px;
+  margin: 0;
+  padding: 0;
+}
+.alert-flyoutmenu li a {
+  text-decoration: none;
+  border-bottom: 1px solid #0e6c8b;
+  color: #003b52;
+  display: block;
+  float: none;
+  font-size: 14px;
+  font-weight: bold;
+  padding:8px 20px;
+  text-transform: uppercase;
+}
+.alert-flyoutmenu li a:hover {
+  background: #003b52;
+  color: #fff;
+}
+.smallinput1 {
+  width: 16% !important;
+}
+.mainpopup {
+  display: none;
+  background: url("../img/overlay.png") repeat scroll left top rgba(0, 0, 0, 0);
+  height: 100%;
+  position: fixed;
+  width: 100%;
+  z-index: 10000;
+}
+.popup-content {
+  background: white;
+  border-radius: 3px;
+  left: 50%;
+  margin-left: -25%;
+  position: absolute;
+  top: 25% !important;
+  width: 50%;
+}
+.popup-text {
+  float: left;
+  font-size: 13px;
+  padding: 1%;
+}
+.popup-title {
+  background: none repeat scroll 0 0 #003b52;
+  border-radius: 3px 3px 0 0;
+  color: #fff;
+  float: left;
+  font-weight: bold;
+  padding: 1% 2%;
+  width: 96%;
+}
+.popup-title > h1 {
+  float: left;
+  line-height: 29px;
+}
+.close-popup .close-white {
+  cursor: pointer;
+  float: right;
+  margin-top: 9px;
+}
+.close-white {
+  background: url(../img/sprite1.png) -60px -22px no-repeat;
+  width: 12px;
+  height: 12px;
+  float: left;
+}
+.popup-text {
+  float: left;
+  font-size: 13px;
+  padding: 2%;
+  width: 96%;
+}
+.userCommentBox {
+}
+.userCommentBox li {
+  display: block;
+  width: 100%;
+  float: left;
+ 
+  padding: 5px 0;
+}
+
+.userCommentBox li label {
+  width:30%;
+  float: left;
+}
+.userCommentBox li input, .userCommentBox li select {
+  width:30%;
+  float: left;
+}
+.userCommentBox li textarea {
+  border: 1px solid #ccc;
+  width: 60%;
+}
+.searcharea1 {
+  margin-left: 10px;
+  padding: 4px 0;
+}
+.searchBox {
+  float: right;
+  text-align: right;
+}
+.searcharea1 input[type="text"] {
+  height: 27px;
+  line-height: 27px;
+  padding: 5px;
+  width: 45%;
+}
+.searcharea1 button {
+  border: 0 none !important;
+  border-radius: 4px;
+  color: #eee;
+  font-weight: bold;
+  margin: -4px 21px 0 4px;
+  padding: 3px 10px;
+}
+
+
+
+
+@media only screen and (max-width: 905px) {
+.close-header-rightpanel {
+  cursor: pointer;
+  background: none repeat scroll 0 0 #f7f7f7;
+  border-top: 1px solid #ccc;
+  color: #555;
+  display: block;
+  float: left;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+}
+.alertt1 {
+  border-radius: 0 !important;
+  height: 67px !important;
+  width: 100%;
+}
+.alertt1 span {
+  margin-top: 32px;
+  top: -17px;
+}
+.currentdate {
+  background: none repeat scroll 0 0 #999;
+  border-radius: 10px;
+  color: #fff;
+  float: right;
+  font-size: 10px;
+  font-weight: bold;
+  margin-right: 14px;
+  margin-top: 21px;
+  padding: 5px 14px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.header-rightpanel {
+  background: none repeat scroll 0 0 #eee;
+  border-bottom: 3px solid #777;
+  box-shadow: 0 0 5px #555;
+  display: block;
+  padding-bottom: 0;
+  position: fixed;
+  top: -250px;
+  width: 100%;
+  z-index: 10000;
+}
+.header-rightpanel-mobile {
+  display: block !important
+}
+
+.header-rightpanel > div {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 33.3%;
+}
+.userpic {
+  float: left;
+  margin-left: 25px;
+  margin-top: 9px;
+}
+.list-content input[type="text"] + select {
+  width: 100%;
+}
+.list-content table input[type="text"] {
+  width: auto !important;
+}
+.usermenu-mobile > img {
+  margin-top: 10px;
+} 
+.searcharea1 input[type="text"]
+{width: 60%;}  
+}
+@media only screen and (max-width: 768px) {
+.contactHeader {
+    margin: 100px 0 0;
+    position: relative;
+}
+.topMenu {
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    margin: 0 0 0 10px;
+}
+.topMenu ul li a button {
+    padding: 3px 3.1px !important;
+}
+.topMenu ul li a button {
+    font-size: 12px;
+    width: 100%;
+}
+  .header-rightpanel{
+  background: #fff;
+}
+  .usermenu-mobile > img {
+    margin-top: 8px;
+}
+.loginWindow .loginBox {
+  width: 96%;
+}
+.loginArea input[type="password"], .loginArea input[type="text"] {
+  border: 1px solid #c7c7c7;
+  border-radius: 3px;
+  float: left;
+  padding: 8px;
+  width: 68%;
+}
+.subheader {
+    background: #e1e9eb;
+    float: left;
+    height: 100%;
+    padding: 0 2.3%;
+    position: unset;
+    width: 100%;
+}
+.subheader .etabs {
+  margin-left: 0px;
+}
+.subheaderLefttPanel {
+  margin-left: -15px;
+}
+.content {
+  margin-top: 0%;
+}
+.list-content {
+  padding: 0;
+}
+.userspanel {
+  width: 100% !important;
+}
+.alertt1 {
+  width: 50% !important;
+}
+.subheader .etabs li {
+  padding: 0 7.4px;
+}
+.subheader .etabs {
+  margin-left: 3px;
+}
+.searcharea1 {
+  width: 100%;
+}
+.searcharea1 input[type="text"] {
+  width: 82%;
+}
+
+.searcharea1 {
+  width: 100%;
+  padding: 0;
+}
+.searcharea1 input[type="text"] {
+  width: 85%;
+}
+.searcharea1 button {
+  margin: 6px 0;
+  padding: 3px 24px;
+}
+.mainheader h1 {
+  color: #fff;
+  font-size: 17px;
+}
+.subheader-btn {
+  padding: 16px 42px 33px;
+}
+.searchButton ul li button{
+  padding: 8px 30%;
+}
+.padding-top-container {
+    margin-top: 95px;
+}
+}
+ @media only screen and (max-width: 640px) {
+      .contact-top, .padding-top-container {
+    margin-top: 0;
+}
+
+ .contactHeader {
+    margin: 50px 0 0;
+    position: relative;
+}
+.searchList {
+    float: right;
+    width: 100%;
+}
+
+   .contactList .listOne{
+  width:100%;
+  float: left;
+}
+
+.contactList .listOne li{
+  width:48%;
+   margin: 2px 1px;
+  padding:2px 5px;
+}
+
+.mainheader {
+  border-bottom: 1px solid #0059a4;
+  padding: 0 1.3% 0 0;
+   width: 100%;
+  z-index: 99999;
+  float: left;
+}
+
+.smallinput {
+  margin-right: 5px;
+  width: 18% !important;
+}
+.list-content input[type="text"] + select {
+  width: auto;
+}
+.content {
+  margin-top: 0%;
+}
+.list-content {
+  padding: 0;
+}
+
+.userspanel {
+  width: 100% !important;
+}
+.alertt1 {
+  width: 50% !important;
+}
+.subheader .etabs li {
+  padding: 0 7.4px;
+}
+.subheader .etabs {
+  margin-left: 3px;
+}
+.searcharea1 {
+  width: 100%;
+}
+.searcharea1 input[type="text"] {
+  width: 82%;
+}
+.searcharea1 button {
+  margin: 0 0 0 2px;
+  padding: 3px 23px;
+}
+.searchBox {
+  
+    float: left;
+ text-align: left;
+    margin-left: 15px;
+    position: relative;
+    width: 100%;
+}
+.subheader-btn{
+  padding: 16px 59px 28px;
+}
+/*.searchButton ul li button{
+  padding: 5px 60px;
+}*/
+.usermenu-mobile {
+    float: left;
+    margin-top: -10px;
+    padding: 0 15px 10px;
+}
+.usermenu-mobile > img {
+  margin-top: 18px;
+}
+.leadstatus label {
+    display: block;
+    float: left;
+    font-size: 11px;
+    line-height: 15px;
+    margin: 8px 0 0;
+    width: 46%;
+}
+.contactAddres input[type="text"], .contactAddres select {
+    margin: 0 32px;
+}
+
+.topMenu {
+    border-bottom: 1px solid #ccc;
+    margin: 0 0 0 10px;
+}
+
+.topMenu ul li a button{font-size: 12px; width: 100%}
+
+.subheaderLefttPanel {
+    float: left;
+    width: 50% !important;
+}
+.subheaderRightPanel {
+    float: left;
+    width: 50% !important;
+}
+.new-top {
+    margin-top: 35px !important;
+}
+.work-top{margin-top: 50px;}
+.search-top{margin-top: 50px;}
+}
+@media only screen and (max-width: 480px){
+
+ .contactHeader {
+    margin: 100px 0 0;
+    position: relative;
+}
+.topMenu ul li a button {
+    padding: 3px 18.1px !important;
+}
+.saveBtnList ul li .subheader-btn {
+    float: left;
+    height: 35px;
+    padding: 8px 42px;
+}
+.content {
+  float: left;
+  margin-top: 72%;
+}
+.header-rightpanel{
+  background: #fff;
+}
+.usermenu-mobile > img {
+    margin-top: 8px;
+}
+.alertt1 {
+    width: 100% !important;
+}
+.header-rightpanel-mobile {
+  display: none;
+  float: right !important;
+  margin-left: 75%;
+  position: absolute;
+}
+.lead-sidepanel {
+  cursor: pointer;
+  margin-top: 2.1%;
+}
+.mainheader h1 {
+    background: #ccc none repeat scroll 0 0;
+    color: #000;
+    line-height: 28px;
+    margin-top: 0;
+    width: 100%;
+    text-align: center;
+}
+.lead-sidepanel {
+  cursor: pointer;
+  margin-top: 2.1%;
+}
+
+.pageHeading {
+  float: left;
+  padding: 0 0 0 9%;
+}
+.usermenu-mobile {
+    float: left;
+    margin-top: -10px;
+    padding: 0 15px 10px;
+}
+.pageHeading {
+  float: left;
+  padding: 0 0 0 0%;
+}
+/*.subheader .darkblue {
+  padding: 0;
+  display: none;
+}*/
+.subheader-btn {
+  padding:16px 27px;
+}
+
+.searcharea1 input[type="text"] {
+  width: 68%;
+}
+.userspanel {
+  width: 100% !important;
+}
+.usermenu-mobile {
+    float: left;
+    margin-top: 2px;
+    padding: 0 15px 10px;
+}
+
+.alertt1 {
+  width: 50% !important;
+}
+.subheader .etabs li {
+  padding: 0 17.4px;
+}
+.subheader .etabs {
+  margin-left: 3px;
+}
+.list-content input[type="text"] + select {
+  width: auto;
+}
+.searchButton ul li button {
+    padding: 8px 25%;
+}
+
+.searchList {
+    float: right;
+    width: 100%;
+}
+.new-top {
+    margin-top: 55px !important;
+}
+.work-top{margin-top: 80px;}
+.search-top{margin-top: 80px;}
+.subheaderLefttPanel h1 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 34px 0 0 14px;
+    padding: 5px 0;
+    text-transform: uppercase;
+}
+}
+@media only screen and (max-width: 360px) {
+
+.contactHeader .mainHeading {
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+.saveBtnList ul li .subheader-btn {
+    float: left;
+    height: 35px;
+    padding: 8px 22px;
+}
+.content {
+  float: left;
+  margin-top: 72%;
+}
+.header-rightpanel{
+  background: #fff;
+}
+.usermenu-mobile > img {
+    margin-top: 8px;
+}
+.alertt1 {
+    width: 100% !important;
+}
+.header-rightpanel-mobile {
+  display: none;
+  float: right !important;
+  margin-left: 75%;
+  position: absolute;
+}
+.lead-sidepanel {
+  cursor: pointer;
+  margin-top: 2.1%;
+}
+.mainheader h1 {
+    background: #ccc none repeat scroll 0 0;
+    color: #000;
+    line-height: 50px;
+    margin-top: 0;
+    width: 100%;
+}
+.lead-sidepanel {
+  cursor: pointer;
+  margin-top: 2.1%;
+}
+ .contactHeader {
+    margin: 100px 0 0;
+    position: relative;
+}
+.mainheader h1 {
+  color:#000;
+  line-height: 50px;
+}
+.pageHeading {
+  float: left;
+  padding: 0 0 0 9%;
+}
+.usermenu-mobile {
+    float: left;
+    margin-top: -10px;
+    padding: 0 15px 10px;
+}
+.pageHeading {
+  float: left;
+  padding: 0 0 0 0%;
+}
+/*.subheader .darkblue {
+  padding: 0;
+  display: none;
+}*/
+.subheader-btn {
+  padding:16px 27px;
+}
+
+.searcharea1 input[type="text"] {
+  width: 68%;
+}
+.userspanel {
+  width: 100% !important;
+}
+.usermenu-mobile {
+    float: left;
+    margin-top: 2px;
+    padding: 0 15px 10px;
+}
+
+.alertt1 {
+  width: 50% !important;
+}
+.subheader .etabs li {
+  padding: 0 17.4px;
+}
+.subheader .etabs {
+  margin-left: 3px;
+}
+.list-content input[type="text"] + select {
+  width: auto;
+}
+.searchButton ul li button {
+    padding: 8px 20%;
+}
+
+.subheaderRightPanel ul{
+  float: left;
+  margin-left: 5px;
+}
+.subheaderRightPanel ul li a.subheader-btn{
+ padding: 16px 24px;
+ border: none;
+}
+.topMenu ul li a button {
+    padding: 3px 13.1px !important;
+}
+.saveBtnList ul li .subheader-btn {
+    float: left;
+    height: 35px;
+    padding: 8px 26px;
+}
+.contactAddres input[type="text"], .contactAddres select {
+    margin: 2px 22px;
+    width: 50%;
+}
+
+
+.new-top {
+    margin-top: 85px !important;
+}
+.work-top, .search-top{margin-top: 100px;}
+.subheaderLefttPanel h1 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 52px 0 0 14px;
+    padding: 5px 0;
+    text-transform: uppercase;
+}
+}
+ @media only screen and (max-width: 320px) {
+
+  .new-top {
+    margin-top:65px !important;
+}
+.work-top{margin-top: 80px;}
+.contact-top {
+    margin-top: 0px;
+}
+ .contactHeader .mainHeading {
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+
+.content {
+  float: left;
+  margin-top: 72%;
+}
+.header-rightpanel-mobile {
+  display: none;
+  float: right !important;
+   position: absolute;
+  width: 15%;
+
+}
+.mainheader h1 {
+    background: #f0f0f0 none repeat scroll 0 0;
+    color: #000;
+    line-height: 32px;
+    margin-top: 0;
+    width: 100%;
+}
+.lead-sidepanel {
+  cursor: pointer;
+  margin-top: 2.1%;
+}
+
+.pageHeading {
+  float: left;
+  padding: 0 0 0 9%;
+}
+/*.subheader .darkblue {
+  padding: 0;
+  display: none;
+}*/
+.subheader-btn {
+  padding:16px 22px;
+}
+.searchBox {
+  float: left;
+  margin: 0;
+  width: 100%;
+}
+.searcharea1 input[type="text"] {
+  width: 64%;
+}
+.userspanel {
+  width: 100% !important;
+}
+.alertt1 {
+  width: 50% !important;
+}
+.subheader .etabs li {
+  padding: 0 12.4px;
+}
+.subheader .etabs {
+  margin-left: 3px;
+}
+.minWidthLabel {
+    float: left;
+    line-height: 17px !important;
+    width: 20% !important;
+    margin-left: -20px !important;
+}
+.searchButton ul li button{
+  padding: 5px 10%;
+}
+.saveBtnList ul li .subheader-btn {
+    float: left;
+    height: 35px;
+    padding: 8px 22px;
+}
+.topMenu ul li a button {
+    font-size: 12px;
+    width: 100%;
+}
+.topMenu ul li a button {
+    padding: 3px 9.1px !important;
+}
+.contactAddres input[type="text"], .contactAddres select {
+    margin: 2px 18px;
+    width: 42%;
+}
+.subheaderLefttPanel h1 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 34px 0 0 14px;
+    padding: 5px 0;
+    text-transform: uppercase;
+}
+}

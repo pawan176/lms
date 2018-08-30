@@ -1,0 +1,52 @@
+.content-bottom{float: left;width: 95%;border-top: 1px solid #ddd;padding: 12px 2.5%;background:#f7f7f7;}
+.content-bottom .more-info span{margin: 0 0 0 2%;  background: url("../../images/small-icon.png") no-repeat scroll -1px -99px rgba(0, 0, 0, 0);display: inline-block;height: 10px;width: 13px;}
+.content-bottom a.more-info.active span { background-position:-1px -160px;}
+.content-bottom .more-info{margin: 0;color: #004fb6;float: left;font: 14px/14px "Open Sans Semibold",arial;width: 40%;}
+.more-link {float: right;color: #505050;}
+.policy-chart{ float: left;padding: 15px 2.5%;width: 95%;}
+#policyTable_wrapper th{text-align: left;font-size: 14px;color: #000;border-bottom: 1px solid #ccc;}
+#policyTable_wrapper td{border-bottom: 1px solid #ccc;font-size: 12px;vertical-align: middle;}
+#policyTable_wrapper a{color: #004fb6;}
+.icon-manage {float: left;margin: 3px 0 0 8px;}
+.file-name {float: left;margin: 2px 0 0;}
+table.dataTable.no-footer{border-bottom:none !important;}
+table.dataTable.dtr-inline.collapsed tbody td:first-child:before, table.dataTable.dtr-inline.collapsed tbody th:first-child:before{top: 20px !important;background-color: #004fb6 !important}
+table.dataTable.dtr-inline.collapsed tbody tr.parent td:first-child:before, table.dataTable.dtr-inline.collapsed tbody tr.parent th:first-child:before{background-color: #31b131 !important}
+table.dataTable tr.child ul li:last-child {border-bottom: 1px solid #d2d2d2 !important;}
+table.dataTable tr.child ul li:first-child {padding-top: 0.5em !important;}
+table.dataTable tr.child ul li{width: 95% !important;padding: 0.5em 2.5% !important;border: 1px solid #d2d2d2 !important;margin: 0 0 10px 0 !important;float: left;}
+table.dataTable tr.child span.dtr-title{width: 150px !important}
+table.dataTable tr.child ul{width: 100%}
+/*============================= 
+! Layout for ipad landscape  
+============================= */
+@media only screen and (max-width: 1024px) {
+table.dataTable.dtr-inline.collapsed tbody td:first-child:before, table.dataTable.dtr-inline.collapsed tbody th:first-child:before {
+    background-color: #004fb6 !important;
+    top: 13px !important;
+}
+}
+/* ============================= */
+/*============================= 
+! Layout for ipad portrait  
+============================= */
+@media only screen and (max-width: 992px) {
+
+}
+/* ============================= */
+/* ! Layout for mobile(lanscape) version   */
+/* ============================= */
+@media only screen and (max-width: 767px) {
+table.dataTable.dtr-inline.collapsed tbody td:first-child:before, table.dataTable.dtr-inline.collapsed tbody th:first-child:before{background: #004fb6 !important;top: 13px !important;}
+.summary-content.comm .summary-info li table ul li{border: 0 !important;border-bottom: 1px solid #d2d2d2 !important;margin: 0;}
+table.dataTable tr.child span.dtr-title{min-width: 100% !important;width: 100% !important;float: left !important;}
+table.dataTable tr.child span.dtr-data{min-width: 100% !important;width: 100% !important;float: left !important;}
+table.dataTable tr.child ul li{border: 0 !important;border-bottom: 1px solid #d2d2d2 !important;}
+}
+/* ============================= */
+/* ! Layout for mobile(portrait) version   */
+/* ============================= */
+@media only screen and (max-width: 479px) {
+.content-bottom .more-info{width: 55%;}
+}
+/* mobile css ends here*/

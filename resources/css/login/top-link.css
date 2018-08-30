@@ -1,0 +1,55 @@
+.login-banner{float: left;width: 97.5%;background: url(../../images/login/login-slide1.jpg) no-repeat 0 0;padding: 0 0 0 2.5%; background-size: 100%;}
+.login-logo{float: left;margin: 20px 0 0 0;}
+.shade{float: left;width: 100%;background: url(../../images/black-shadow.png) no-repeat top right;min-height: 652px;}
+.right-banner.register .login-social-icon{width: 14%;}
+.right-banner{width:50%;float: right;background: transparent;/*padding: 20px 4% 7px 0;}*/padding: 0 4% 7px 0;}
+.login-call{float: right;margin: 0 12% 0 0;font-size: 14px;color: #fff;line-height: 20px;}
+.login-call{float: right;margin: 0 12% 0 0;font-size: 14px;color: #fff;line-height: 20px;display: none;}
+.login-call span{background: url(../../images/icon-sprite.png) no-repeat 0 -302px;float: left;width: 25px;height: 20px;}
+.login-social-icon{float: right;width: 10%;display: none;}
+.login-social-icon li{float: left;margin: 0 0 0 12%;}
+.login-social-icon li a{float: left;background: url(../../images/icon-sprite.png) no-repeat 0 -100px;width: 20px;height: 20px;}
+.login-social-icon li a.facebook{background-position: 0 -190px;}
+.login-social-icon li a.twitter{background-position: 0 -211px;}
+.login-slides{float: left;width: 95%;/*margin:20px 0 0 0;*/padding: 17px 2.5% 10px 2.5%;}
+/*============================= 
+! Layout for ipad landscape  
+============================= */
+@media only screen and (max-width: 1024px) {
+.right-banner{width:58%;}
+}
+/* ============================= */
+/*============================= 
+! Layout for ipad portrait  
+============================= */
+@media only screen and (max-width: 992px) {
+	.login-content li.user-name, .login-content li.password{width: 42.8% !important;}
+.right-banner {width: 77%;}
+.login-banner{padding: 0;width: 100%;}
+.login-logo {margin: 20px 0 0 2.5%;}
+}
+/* ============================= */
+/* ! Layout for mobile(lanscape) version   */
+/* ============================= */
+@media only screen and (max-width: 767px) {
+		.login-content li.user-name, .login-content li.password{width: 41.5% !important;}
+		.login-link{background: grey !important}
+.login-banner{background-size: 200% 100% !important;}	
+.right-banner {margin: 30px 0 0;width: 100%;padding: 0}
+.login-social-icon {width: 15%;}
+.shade{min-height: 400px;}
+}
+@media only screen and (max-width: 470px) {
+	
+		.login-content li.user-name, .login-content li.password{min-width: 92% !important;  width: 92% !important; clear: both}
+	
+/* ============================= */
+/* ! Layout for mobile(portrait) version   */
+/* ============================= */
+@media only screen and (max-width: 479px) {
+
+	.login-banner{background-size: 236% 82% !important}	
+.login-social-icon {width: 25%;}	
+.login-call {margin: 0 2% 0 0;}
+.right-banner.register .login-social-icon {width: 21%;}
+}

@@ -1,0 +1,146 @@
+body{margin: 0;
+padding: 0;
+font-family: arial;
+
+}
+
+a,img{border: none;}
+ul{list-style: none}
+input[type="submit"], button{cursor: pointer;}
+
+.loginareaa {
+    background: #203f5c;
+    border-radius: 8px;
+    left: 50%;
+    margin: auto auto auto -181px;
+    padding: 20px 32px 13px;
+    position: absolute;
+    width: 298px;}
+	
+	
+ .loginfield input[type="text"], .loginfield input[type="password"] {
+  background: #496585;
+    border: 1px solid #687e97;
+    border-radius: 2px;
+    padding: 7px 2%;
+
+}
+
+.loginfield input[type="submit"] {
+    background: #81bee3;
+    border: medium none;
+    border-radius: 3px;
+    color: #203f5c;
+    font-weight: bold;
+    padding: 10px 12px;
+    position: relative;
+    width: 100%;
+}
+ .loginfield label{font-size: 14px;; color: #81bee3}
+
+ .loginfield {
+ position: relative;
+    float: left;
+    width: 100%;
+	margin-bottom: 10px;
+}
+label.beanimated {
+    bottom: 5px;
+    left: 8px;
+    position: absolute;
+	width: 100%;
+	}
+.loginfield label, .loginfield input[type="text"], .loginfield input[type="password"] {
+    float: left;
+    width: 48%;
+}
+.logininputfull {
+    width: 96% !important;
+}
+
+.logintitle {
+    color: #81bee3;
+    font-family: arial;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+}
+
+
+
+.madeby {
+    background: #258bcf;
+    border-radius: 0 0 3px 3px;
+    bottom: -29px;
+    color: #bae3ff;
+    font-size: 11px;
+    font-weight: bold;
+    height: 29px;
+    left: 5%;
+    line-height: 29px;
+    padding: 0 2%;
+    position: absolute;
+    text-align: right;
+    width: 86%;
+}
+
+
+.loginfield.customchkbox > label {
+    border-radius: 2px;
+    float: left;
+    height: 20px;
+    left: 0;
+    position: absolute;
+    width: auto;
+	padding-left: 25px;
+	background: url(../img/cust-checkbox.png) left top no-repeat;
+}
+
+.loginfield.customchkbox > input[type="checkbox"] {
+    float: left;
+    margin-right: 10px;
+    opacity: 0;
+    position: relative;
+    z-index: 1000;
+}
+
+.loginfield.customchkbox > input[type="checkbox"]:checked + label{background: url(../img/cust-checkbox.png) left -20px no-repeat !important;}
+
+.bgimage , .bgimage2, .bgimage3 , .bgimage4{
+    position: fixed;
+    width: 100%;
+	height: 100%
+}
+
+
+.bgimage img {
+    height: 100%;
+    width: 100%;
+}
+.bgimage2 img {
+    height: 120%;
+    margin-top: -78px;
+    width: 100%;
+}
+.bgimage3 img {
+    height: 120%;
+    margin-top: 0;
+    width: 100%;
+}
+
+.bgimage4 img {
+    height: 80%;
+    margin-top: -80px;
+    width: 100%;
+}
+.flexslider .slides img {
+    height: 39% !important;
+    margin-top: -18%;
+}
+.flex-direction-nav{display: none;}
+
+
+@media all and (max-width:768px){
+body{background-size: auto !important}
+}

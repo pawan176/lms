@@ -1,0 +1,45 @@
+.inner-link{float: left;width: 90%;background:#505050;padding: 20px 5% 0;overflow:auto;}
+.inner-link strong{font: 14px/18px 'open_sansbold',arial;display: block;color: #fff;float: left;width: 100%;}
+.inner-link ul{float: left;width: 100%;margin: 10px 0 10px 0;}
+.inner-link ul li{padding: 0 0 15px 15px;float: left;border: 0;width: 90%;}
+.inner-link ul li a{padding: 0;font-size:14px;line-height: 16px;color: #fff;}
+.inner-link ul.pending-task li{background:url(../../images/red-bullet.png) no-repeat 0 5px;}
+.inner-link ul.done-task li{background:url(../../images/green-bullet.png) no-repeat 0 5px;}
+.inner-link ul.manage-task{float: left;width: 100%;margin:0;}
+.inner-link ul.manage-task li{float: left;padding:0 0 15px 0;}
+.inner-link ul.manage-task li a{width: 100%;padding: 10px 0;color: #fff;font-size: 12px;text-align: center;background: #59b337;}
+.inner-link.tool{height: auto;padding-top: 0;display: none;}
+/*============================= 
+! Layout for ipad landscape  
+============================= */
+@media only screen and (max-width: 1024px) {
+
+}
+/* ============================= */
+/*============================= 
+! Layout for ipad portrait  
+============================= */
+@media only screen and (max-width: 992px) {
+
+}
+/* ============================= */
+/* ! Layout for mobile(lanscape) version   */
+/* ============================= */
+@media only screen and (max-width: 767px) {
+.inner-link { display:none;}
+.left-nav a.active.mobile-deactivate span{background: url("../../images/small-icon.png") no-repeat scroll -1px -69px;}
+.left-nav a.active.mobile-deactivate {background:transparent;font-weight: normal;}
+.left-nav a.mobile-activate span{background-position: 0px -85px;width: 15px;height: 13px;}
+.left-nav a.mobile-activate{background:#505050;font-weight: bold;}
+.left-nav a.active.mobile-deactivate.mobile-activate{background:#505050 !important;font-weight: bold !important;}
+.left-nav a.active.mobile-deactivate.mobile-activate span{background-position: 0px -85px !important;width: 15px !important;height: 13px !important;}
+}
+/* ============================= */
+/* ! Layout for mobile(portrait) version   */
+/* ============================= */
+@media only screen and (max-width: 479px) {
+
+}
+
+
+/* mobile css ends here*/

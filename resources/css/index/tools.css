@@ -1,0 +1,36 @@
+.left-nav{float: left;width: 100%;background: #3d3d3d;}
+.left-nav li{float: left;border-top: 1px solid #565656;width: 100%}
+.left-nav a{float: left;padding: 20px 5%;color: #fff;font-size: 14px;width: 90%;cursor: pointer;position: relative;}
+.left-nav a.activate{color: #ffdc10;}
+.left-nav a.active{background:#505050;font-weight: bold;}
+.left-nav a span{float: right;background: url(../../images/small-icon.png) no-repeat -1px -69px;width: 15px;height: 13px;}
+.left-nav a.active span{background-position: 0px -85px;width: 15px;height: 13px;}
+.left-nav a small{position: absolute;color: #fff;background: #e12323;font-size: 12px;padding: 3px 6px;border-radius: 10px;top: 11px;}
+/*============================= 
+! Layout for ipad landscape  
+============================= */
+@media only screen and (max-width: 1024px) {
+
+}
+/* ============================= */
+/*============================= 
+! Layout for ipad portrait  
+============================= */
+@media only screen and (max-width: 992px) {
+
+}
+/* ============================= */
+/* ! Layout for mobile(lanscape) version   */
+/* ============================= */
+@media only screen and (max-width: 767px) {
+
+}
+/* ============================= */
+/* ! Layout for mobile(portrait) version   */
+/* ============================= */
+@media only screen and (max-width: 479px) {
+
+}
+
+
+/* mobile css ends here*/

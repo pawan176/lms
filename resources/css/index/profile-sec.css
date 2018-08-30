@@ -1,0 +1,53 @@
+.user-profile{float: left;width: 95%;padding: 21px 0 0 5%;/*background: #ffdc10;*/}
+.user-pic{width:14%;float: left;border: 2px solid #356ec5;border-radius: 30px;margin: 0 2% 0 0;z-index: 99;position: relative;}
+.user-pic img{float: left;}
+.profile-detail{float: right;width: 80%;position: relative;}
+.edit-icon{cursor:pointer;position: absolute;top: 0px;right: 10px;background: url(../../images/icon-sprite.png) no-repeat 0 -664px;float: left;width: 20px;height: 20px;}    
+.welcome{font: 16px/16px 'Open Sans Semibold',arial;color: #585858;}
+.name{font:18px/20px 'open_sansbold',arial;color:#000;font-weight: normal;display: inline-block;padding: 10px 0 0 0;float: left;width: 100%;overflow: hidden;text-overflow:ellipsis;white-space: nowrap;}
+.designation{font-size:13px;color:#585858;display: inline-block;padding: 10px 0 0 0;}
+.designation.log a{color: #004fb6;font: 12px/14px 'Open Sans Semibold',arial;}
+.designation.log{font-size: 12px;}
+.designation.log a.change{color: #585858;font: 12px/14px 'open_sansregular',arial;}
+/* mobile profile detail */
+.mobile-profile-wrap{float: left;width: 100%}
+.mobile-profile-link{bottom: 5px;cursor: pointer;display: none;position: absolute;right: 13px;z-index: 998}
+.mobile-profile-link em{background: url(../../images/arrows-profile.png) no-repeat 0 0;width: 13px;height: 8px;float: left;}
+.mobile-profile-link.active em{background-position: 0 -8px}
+/*============================= 
+! Layout for ipad landscape  
+============================= */
+@media only screen and (max-width: 1024px) {
+.welcome {display: inline-block;margin: 10px 0 0;}
+.profile-detail {float: none;width: auto;}
+}
+/* ============================= */
+/*============================= 
+! Layout for ipad portrait  
+============================= */
+@media only screen and (max-width: 992px) {
+.user-pic {margin: 0 4% 0 2%;}
+.welcome {margin: 5px 0 0;}
+}
+/* ============================= */
+/* ! Layout for mobile(lanscape) version   */
+/* ============================= */
+@media only screen and (max-width: 767px) {
+.designation{display: block;padding: 5px 0 0 0}
+.user-pic{width: 9%;margin: 17px 4% 0 2%;}
+.info-provide.toggelable{display: none;}
+.info-provide.active{display: block;margin: 0;}
+.mobile-profile-link{display: block;}
+.profile-detail {margin:15px 0; width:80%; float:right;}
+.user-profile{padding: 0 0 0 5%}
+.name{display:block; clear:both;padding: 5px 0 7px 0;}
+}
+/* ============================= */
+/* ! Layout for mobile(portrait) version   */
+/* ============================= */
+@media only screen and (max-width: 479px) {
+
+}
+
+
+/* mobile css ends here*/

@@ -1,0 +1,1759 @@
+body,.mainheader h1 {
+	font-family: "Calibri", Arial, sans-serif !important;
+}
+/*.mainheader h1{font-family: times new roman !important;}*/
+.topMenu ul li {
+	font-size: 14px !important;
+	color: black;
+	font-family: "Calibri", Arial, sans-serif !important;
+}
+/*
+table tbody tr:nth-child(2n) td {
+background-color: #EEE !important;
+}
+*/
+.docu-tablee select,input[type="text"],.row.exis-facil table tr td:not (:nth-child(1)
+	) input,[id^="datepicker"],.searchfieldss input[type="text"] {
+	text-transform: uppercase;
+	color: black;
+	font-size: 14px;
+}
+
+table th {
+	background-color: #519DC0 !important;
+}
+
+.table>thead>tr>th,.table>tbody>tr>th,.table>tfoot>tr>th,.table>thead>tr>td,.table>tbody>tr>td,.table>tfoot>tr>td
+	{
+	border: none !important;
+}
+
+.topMenu ul li a.active {
+	background: #00698C !important; /*#519DC0 !important;*/
+}
+
+table tbody tr:nth-child(2n) td {
+	background-color: white !important;
+}
+
+.tdbackground tr td:nth-child(3) select,.tdbackground tr td:nth-child(4) select
+	{
+	background-color: #d8ffff !important;
+	text-transform: uppercase;
+	background-color: rgb(235, 243, 255) !important;
+	
+}
+
+.tdbackground tr td:nth-child(7) input {
+	/*background: #E3E3E3 !important;*/
+	
+}
+
+.row.buttonHeading h2.heading {
+	margin-top: 8px !important;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+
+.listOne:nth-child(2n+1),.listOne:nth-child(2n) {
+	background-color: #F8F6ED !important;
+}
+
+.contactList .listOne li,.leadstatus li {
+	width: 50%;
+}
+
+ul.listOne li:nth-child(odd) label {
+	color: #333 !important;
+	font-size: 14px !important;
+	font-weight: normal !important;
+	line-height: 18px !important;
+}
+
+ul.listOne li:nth-child(even) span {
+	font-size: 14px !important;
+	line-height: 9px;
+	line-height: 12px;
+	position: relative;
+}
+
+ul.listOne li:nth-child(even),ul.listOne li:nth-child(odd) {
+	margin-top: 9px;
+}
+
+.contactList .listOne {
+	padding: 0px 0 22px 3px !important;
+}
+
+.row.contactList#collapse-div {
+	background-color: #F8F6ED !important;
+}
+
+.contactList {
+	margin-top: 0 !important;
+	border: 1px solid #DDD;
+	/*clear:both;*/
+}
+
+.contactList .listOne li,.leadstatus li {
+	/*width: 50% !important;*/
+	width: 46% !important;
+}
+/* tooltip text*/
+.tooltiptext {
+	z-index: 1;
+	width: 190px;
+	background: #88BFE8;
+	filter: progid:DXImageTransform.Microsoft.gradient(  startColorstr='#88bfe8',
+		endColorstr='#70b0e0', GradientType=0);
+	padding: 5px 11px;
+	position: absolute !important;
+	top: 6%;
+	display: none !important;
+	border: 1px solid #00698C;
+	border-radius: 6px;
+	color: white !important;
+}
+
+.facilityblock:hover .facilityblock .tooltiptext {
+	display: block !important;
+}
+/* tooltip text*/
+.leadstatus label {
+	line-height: 14px;
+	margin: 5px 0 0 0;
+}
+/*
+.mailingAddressDiv .deletchk {
+margin-top: 1px;
+margin-left: 0px;
+}
+*/
+.deletchk input {
+	position: absolute;
+	z-index: 99;
+	left: 0;
+	margin: 15px 0 0 2px;
+}
+
+.row.leadstatus .col-xs-12 {
+	margin-top: 12px;
+}
+
+contactList .listOne input[type="text"],.contactList .listOne select,.leadstatus input[type="text"],.leadstatus select,.leadstatus textarea
+	{
+	width: 66.9%;
+	margin: 0px 0;
+	font-size: 15px;
+	text-transform: uppercase !important;
+}
+
+.leadStatusContact textarea {
+	width: 67.5% !important;
+	float: right !important;
+}
+
+.topMenu ul li a.active:hover {
+	background: #519DC0 !important;
+}
+
+.topMenu ul li a.active,.topMenu ul li a.active {
+	background: #519DC0 !important;
+}
+
+.contactHeader {
+	border-bottom: 5px #519DC0 solid;
+}
+
+.topMenu ul li a {
+	border: solid 1px #DDD !important;
+	border-bottom: none !important;
+}
+
+.btn-primary {
+	text-transform: uppercase !important;
+	font-weight: bold;
+	padding: 3px 6px !important;
+}
+
+#leadCode+button {
+	text-transform: uppercase !important;
+}
+
+/* .minus-icon1 {
+	margin-left: 6px;
+	margin-top: 5px;
+} */
+
+#content #tabs li a {
+	background: #519DC0 !important;
+}
+
+#content #tabs li a {
+	background: #519DC0 !important;
+}
+
+#content #tabs li.active a {
+	background: #FFF !important;
+}
+
+table.table.table-striped th {
+	background: #519DC0 !important;
+}
+
+.btn.btn-primary {
+	font-weight: bold !important;
+}
+
+.topMenu ul li a.active {
+	line-height: 24px !important;
+}
+
+#subtble select {
+	background-color: white !important;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+.multiselect.dropdown-toggle.btn.btn-default>span {
+	text-transform: uppercase;
+}
+
+.borderBox ul li label.checkbox {
+	text-transform: uppercase;
+}
+
+.borderBox ul li label.checkbox input[type="checkbox"] {
+	margin: 0px 0 0;
+	margin-left: -20px;
+}
+
+.borderBox ul li {
+	margin: 0 0 0 1px;
+}
+
+#rowContactMobile select,#mobileType1,#emailRow+label+select,.row.keycontact_table table tr td:nth-child(2) select
+	{
+	text-transform: uppercase;
+}
+
+.searchallo-datatable #resultTable_length {
+	top: -47px;
+}
+
+[name="resultTable_length"] {
+	line-height: 17px !important;
+	height: 25px;
+}
+
+/* .plus-icon1 {
+	margin-left: 3px;
+	margin-top: 3px !important;
+} */
+
+/* .minus-icon1 {
+	margin-left: 5px;
+	margin-top: 5px !important;
+} */
+
+.btn.btn-success {
+	font-weight: bold !important;
+}
+/*Toggle button starts here*/
+.tgl_nbtn {
+	border-radius: 10px 10px 0px 10px !important;
+	width: 99px;
+	text-align: center;
+	height: 20px;
+	cursor: pointer;
+}
+
+.tglestactic.hiu {
+	background: #519DC0;
+	height: 7px !important;
+	position: absolute;
+	text-align: center;
+	margin: 0 auto !important;
+	margin-top: 22px;
+	bottom: 0px;
+	right: 0;
+	left: 0;
+}
+
+.tglestactic span {
+	width: 0 !important;
+	height: 0 !important;
+	border-style: solid;
+	border-width: 4px 7px 0 7px;
+	border-color: white #519DC0 white;
+}
+
+.tglestactic span {
+	display: block;
+	background: white;
+	height: 2px !Important;
+	width: 19px;
+	margin: 0px auto;
+	margin-top: 3px;
+}
+
+.row.contactList {
+	position: relative !important;
+}
+
+.uparrow-div {
+	bottom: -1px !important;
+	bottom: -8px !important;
+	border-radius: 0px 0px 10px 10px !important;
+}
+
+.uparrow-div span {
+	position: relative;
+	top: -3px;
+	border-width: 0px 14px 0 14px;
+	position: relative;
+	top: -10px !important;
+	border-top: 7px solid white !important;;
+	border-right: 7px solid transparent !important;;
+	border-bottom: 7px solid transparent !important;;
+	border-left: 7px solid transparent !important;;
+	background: none;
+	margin-top: 9px;
+}
+
+.down-div span {
+	background: none;
+	border-width: 0px 14px 0 14px;
+	border-bottom: 7px solid white;
+	border-top: 7px solid transparent;
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	top: -8px !important;
+}
+
+.down-div {
+	border-radius: 10px 10px 0px 0px !important;
+}
+/*Toggle button ends here*/
+leadStatusContact textarea {
+	width: 66.5% !important;
+}
+
+.tags-margin {
+	margin-top: -16px;
+}
+
+.margintop-div {
+	margin-top: -7px;
+}
+
+.listOne:nth-child(4) li:nth-child(2) span {
+	line-height: 13px !important;
+}
+
+.Constitution-margin {
+	margin-top: 9px !important;
+}
+
+.lineheight-customer {
+	line-height: 12px !important;
+}
+
+input[value="N"] {
+	font-weight:normal;
+	font-size: 14px;
+}
+
+.heading-topmargin {
+	padding: 6px 0 0 0 !important;
+}
+
+.remarks-li {
+	margin: 0px 0 5px !important;
+}
+
+.remarks-li input {
+	margin-top: -7px !important;
+	float: right;
+	height: 29px !important;
+}
+
+.leadStatusContact li:last-child {
+	margin: 3px 0 5px !important;
+}
+
+.remarks-li label {
+	margin-top: 0px !important;
+}
+
+.addressinput {
+	float: right;
+	height: 29px !important;
+}
+
+.icon-image {
+	height: 15px;
+	position: absolute;
+	right: 20px;
+	top: 4px !important;
+	vertical-align: middle;
+	z-index: 99;
+}
+
+.padding-left-img {
+	padding-left: 0 !important;
+}
+
+.modal-dialog {
+	z-index: 99999;
+}
+
+.modal-textarea {
+	width: 100%;
+	height: 141px;
+	margin-top: -13px;
+}
+
+.modal-footer {
+	margin-top: -17px !important;
+	padding: 8px 17px 9px !important;
+}
+
+.modal-header {
+	padding-bottom: 33px !important;
+	padding-right: 18px !important;
+}
+
+.modal-header button {
+	text-align: center;
+	height: 29px;
+	width: 29px;
+	border: none;
+}
+
+.worklist-padding-input {
+	width: 40% !important;
+	margin-top: -9px;
+}
+
+.worklist-padding-input #remark {
+	width: 100% !important;
+}
+
+.worklist-iconmodel {
+	top: 16px !important;
+}
+
+.labelwidthcustomer label {
+	width: 33% !important;
+}
+
+.padding-left-margin {
+	width: 66.6% !important;
+	padding-right: 0;
+}
+
+.padding-left-margin input {
+	margin-top: 0px !important;
+	width: 100% !important;
+}
+
+.addressField .minWidth {
+	width: 33% !important;
+}
+
+.padding-left-margin img {
+	right: 10px;
+}
+
+/*Random start from here and some inline aslo on jsp*/
+.listOne:nth-child(4) li:nth-child(8) span {
+	line-height: 14px !important;
+	display: inline-block;
+	margin-top: 0px;
+}
+
+.listOne:nth-child(4) li:nth-child(2) span {
+	line-height: 14px !important;
+	margin-top: -7px;
+}
+/*Random Ends here and some inline aslo on jsp*/
+
+/*Layout header jsp satrts here*/
+.saveBtnList {
+	margin-top: 5px;
+	height: 0 !important;
+}
+
+.saveBtnList ul li {
+	height: 0;
+}
+
+.saveBtnList ul li a {
+	height: 0 !important;
+	padding: 1px 9px !important;
+	background: none;
+	border: none;
+	color: #00698c;
+}
+
+.saveBtnList ul li {
+	
+}
+
+.saveBtnList ul li a img {
+	display: none;
+}
+
+.searcharea1 {
+	padding: 10px 0 0px 0px !important;
+}
+
+.searcharea1 input {
+	height: 20px !important;
+	margin-top: 2px !important;
+}
+
+.searcharea1 button {
+	line-height: 16px !important;
+	padding-bottom: 4px !important;
+}
+
+.searchList {
+	margin-top: 8px;
+}
+
+.contactHeader {
+	margin: 39px 0 0 !important;
+}
+
+#leadCode+button {
+	padding-top: 4px !important;
+	padding-bottom: 4px !important;
+}
+
+ul.listOne li:nth-child(even),ul.listOne li:nth-child(odd) {
+	margin-top: 2px;
+}
+
+.listOne:nth-child(1) li:nth-child(5) {
+	position: relative;
+	top: 3px !important;
+}
+
+.tags-margin {
+	margin-top: -25px;
+}
+
+Layout header jsp ends here* /
+.taggs label {
+	margin-top: 0px;
+}
+
+.taggs label {
+	margin-top: 0px;
+}
+
+.contactHeader .mainHeading h1 {
+	padding: 14px 15px 0 15px;
+	font-size: 14px;
+}
+
+/*login page starts here*/
+/* .loginareaa {
+	background-color: rgba(255, 255, 255, 0.49) !important;
+	border-radius: 0px;
+	bottom: 14%;
+	width: 368px;
+	padding: 20px 20px 13px !important;
+	left: 50.3%;
+	bottom: 17%;
+} */
+.loginareaa {
+    background-color: rgba(255, 255, 255, 0.49) !important;
+    border-radius: 0px;
+    bottom: 14%;
+    width: 368px;
+    padding: 20px 20px 13px !important;
+    left: 50%;
+    bottom: 28%;
+}
+
+.loginfield {
+	border: 1px solid rgba(255, 255, 255, 0.39);
+}
+
+.loginfield input[type="text"],.loginfield input[type="password"] {
+	width: 96% !important;
+	margin: 4px 0px;
+	text-transform: uppercase;
+	font-size: 14px;
+	border: 1px solid #C7C7C7;
+	border-radius: 3px;
+	padding: 0px 8px;
+	height: 24px;
+	box-sizing: border-box;
+	color: white !important;
+	font-size: 18px !important;
+	width: 85% !important;
+	text-align: left !important;
+	padding-left: 20px !important;
+	background: none !important;
+	width: 80% !important;
+	font-size: 13px;
+	padding-top: 0px;
+	height: 40px;
+	border: none;
+	margin: 0px 0px;
+	float: right !important;
+}
+
+.madeby {
+	line-height: 29px;
+	padding: 0 !important;
+	position: absolute;
+	left: 0;
+	text-align: left !important;
+	width: 100%;
+	color: #CCC;
+	font-size: 12px;
+	text-align: center;
+	background-color: #174A75;
+	font-weight: 700;
+	padding-bottom: 4px !important;
+	padding-top: 4px !important;
+	border-radius: 0;
+}
+.qualtech-left{
+	margin-left:17px;
+}
+.version-right{
+	margin-right:17px;
+}
+.logintext {
+	background: #174A75;
+	left: 0;
+	top: -34px;
+	width: 55%;
+	color: white;
+	position: absolute;
+	font-size: 18px;
+	text-align: center;
+	padding: 7px 1.5% 5px 1.5%;
+}
+
+.suptm {
+	color: white;
+	font-size: 10px;
+}
+
+.reset,.login {
+	width: 32%;
+	float: right;
+}
+
+.reset {
+	background: #81BEE3;
+	border: medium none;
+	border-radius: 3px;
+	color: #203F5C;
+	font-weight: bold;
+	padding: 10px 12px;
+	position: relative;
+	margin-right: 23px;
+	border-radius: 0 !important;
+	border: 1px solid white;
+	text-transform: uppercase;
+	text-transform: uppercase;
+	font-size: 16px;
+	color: #203F5C;
+	text-align: right;
+	font-size: 14px;
+	background: #CCC url("../images/reset.png") no-repeat !important;
+	background-position: 13px 11px !important;
+	padding: 10px 22px !important;
+	cursor: pointer;
+	color: #333 !important;
+	font-size: 16px;
+	padding-right: 16px !important;
+}
+
+.login {
+	float: right;
+	width: 32% !important;
+	border-radius: 0 !important;
+	border: 1px solid #0773C6 !important;
+	text-transform: uppercase;
+	font-size: 14px;
+	color: white !important;
+	text-align: right;
+	text-indent: 20px;
+	background: #174A75 url("../images/login.png") no-repeat !important;
+	background-position: 15px 12px !important;
+	padding: 10px 22px !important;
+	padding-right: 16px !important;
+
+font-size: 16px;
+}
+
+.logintitle {
+	display: none;
+}
+
+.border-nonelogin {
+	border: none;
+}
+
+.image-position img {
+	padding: 9px 17px;
+}
+
+.image-position {
+	background-color: #AAA;
+}
+/*login page ends here */
+textarea:focus,input:focus {
+	outline: none;
+} /*
+/* tooltip css starts here*/
+.topstaticinfo ul>li:nth-child(odd) {
+	font-size: 14px !important;
+	text-transform: uppercase;
+}
+
+.topstaticinfo ul>li:nth-child(even) {
+	color: #333;
+	font-size: 14px !important;
+	text-transform: uppercase;
+	font-weight: bold !important;
+}
+
+.topstaticinfo ul li span.hover_dashyy {
+	top: -3px !important;
+	position: absolute;
+	z-index: 1;
+	min-width: 190px;
+	background: #88BFE8;
+	border: 1px solid #00698C;
+	border-radius: 6px;
+	color: white !important;
+	padding: 6px 11px;
+	text-align: center;
+	right: -82% !important;
+	font-weight: normal !important;
+	line-height: 12px !important;
+	background: -webkit-linear-gradient(#88BFE8, #70B0E0) !important;
+	background: -o-linear-gradient(#88BFE8, #70B0E0) !important;
+	/* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#88BFE8, #70B0E0) !important;
+	/* For Firefox 3.6 to 15 */
+	background: linear-gradient(#88BFE8, #70B0E0) !important;
+	/* Standard syntax (must be last) */
+}
+
+.row.contactList.leadstatus div label span.hover_dashyy {
+	top: -3px !important;
+	position: absolute;
+	z-index: 1;
+	min-width: 190px;
+	background: #88BFE8;
+	border: 1px solid #00698C;
+	border-radius: 6px;
+	color: white !important;
+	padding: 6px 11px;
+	text-align: center;
+	right: -72% !important;
+	line-height: 12px !important;
+}
+/*
+.row.contactList.leadstatus div:nth-child(4n) label span.hover_dashyy{
+top: -3px !important;
+position: absolute;
+z-index: 1;
+min-width:190px;
+background: #88BFE8;
+border: 1px solid #00698C;
+border-radius: 6px;
+color: white !important;
+padding: 6px 11px;
+text-align: center;
+right: -82% !important;
+line-height: 12px !important;
+}
+*/
+.topstaticinfo ul li {
+	position: relative;
+}
+
+.topstaticinfo ul>li:hover span.hover_dashyy {
+	display: block !important;
+	top: -3px !important;
+	position: absolute;
+	left: 71%;
+	font-weight: bold;
+}
+
+.row.contactList.leadstatus div>label:hover span.hover_dashyy {
+	display: block !important;
+	right: 180% !important;
+	margin-top: 2px;
+	width: 190px;
+	line-height: 12px !important;
+	top: -3px !important;
+	font-weight: bold;
+	left: 27%;
+}
+/*
+.row.contactList.leadstatus div:nth-child(4n)>label:hover span.hover_dashyy{
+display:block !important;	
+right: 180% !important;
+margin-top: 2px;
+width:190px;
+line-height: 12px !important;
+top: -3px !important;
+font-weight:bold;
+left: -55%;
+}
+*/
+.contactList.leadstatus div label {
+	
+}
+
+.topstaticinfo ul:nth-child(4)>li:nth-child(even):hover span.hover_dashyy
+	{
+	display: block !important;
+	right: 180% !important;
+	margin-top: 2px;
+	width: 190px;
+	line-height: 12px !important;
+}
+
+.topstaticinfo ul:nth-child(4) li:nth-child(even):hover span.hover_dashyy
+	{
+	top: -3px !important;
+	left: -118%;
+}
+
+.topstaticinfo ul:nth-child(3) li:nth-child(1):hover span.hover_dashyy {
+	top: 1px !important;
+}
+/*
+.topstaticinfo ul:nth-child(3) li:nth-child(1)  span{
+top: 2px !important;}
+.topstaticinfo ul:nth-child(1) li:nth-child(8)  span{
+right: -152% !important;}
+*/
+
+/* tooltip css ends here*/
+.modal-open .modal,.btn:focus {
+	outline: none !important
+}
+/* worklist page starts here*/
+/*
+.myleadbg,.escbg,.refbg {
+background: #234E72 !important;
+color: white !important;
+background-color: #519DC0 !important;
+}
+*/
+/*
+.searchButton ul li:nth-child(1) button{
+	background: #234E72 !important;
+}
+*/
+/*Ends here*/
+.taggs label,.tagb_div label {
+	margin-top: 0px !important;
+}
+
+.margintop-div.taggs {
+	margin-top: -17px;
+}
+
+.tagb_div.margintop-div {
+	margin-top: -17px;
+}
+
+.leadStatusContact {
+	margin-top: 8px !important;
+}
+
+.tab-left {
+	margin-left: 1px !important;
+}
+
+.row.leadstatus .col-xs-12 {
+	margin-top: 10px !important;
+}
+
+#advancedSearch .col-lg-3 {
+	margin-bottom: 0 !important;
+}
+/*
+.contactList.leadstatus{
+	border-top: 0 !important;
+}
+*/
+#advancedSearch {
+	padding: 0 !important;
+	border: 1px solid #DDD;
+}
+
+.listOne:nth-child(4) li:nth-child(7),.listOne:nth-child(4) li:nth-child(8)
+	{
+	margin-top: -2px !important;
+}
+
+.listOne:nth-child(4) li:nth-child(5) {
+	top: 4px !important;
+}
+
+.listOne:nth-child(1) li:nth-child(5) {
+	top: 4px !important;
+}
+
+.mylead_esc_ref ul button {
+	padding-bottom: 5px !important;
+	padding-top: 5px !important;
+	line-height: 15px !important;
+	font-weight: bold !important;
+}
+
+.btn.myleadbg {
+	border-radius: 0px !important;
+	border-top-left-radius: 6px !important;
+	border-top-right-radius: 6px !important;
+}
+
+.searchfieldss.col-xs-12.worklist-searchbtn {
+	left: -16px !important;
+}
+
+#sortOrder1 {
+	padding: 2px 17px 1px 6px;
+	width: 43% !important;
+}
+
+.row.contactList {
+	padding-top: 9px;
+}
+
+.row.leadstatus .col-xs-12 {
+	margin-top: 2px !important;
+}
+
+.deletchk input {
+	margin: 12px 0 0 2px;
+}
+
+.fourtabs-toppadding #collapse-div {
+	padding-top: 0px;
+}
+
+.leadstatus label {
+	/*margin: 0px 0 0 0;*/
+	text-transform: capitalize;
+}
+
+.leadstatus span {
+	color: #333 !important;
+	margin-top: 6px;
+}
+
+.select-tooltip {
+	display: none !important;
+}
+
+.mylead_esc_ref ul button {
+	border-top-left-radius: 5px !important;
+	border-top-right-radius: 5px !important;
+}
+
+.plus-icon-2,.minus-icon2 {
+	background: url("../img/sprite2.png") !important;
+	float: left !important;
+	height: 24px !important;
+	margin-left: 8px !important;
+	margin-top: 6px !important;
+	background-size: 30px 26px !important;
+	background-repeat: no-repeat !important;
+	width: 30px !important;
+	margin-left: -5px !important;
+	margin-top: 1px !important;
+	background-size: 30px 22px !important;
+	background-repeat: no-repeat !important;
+	width: 30px !important;
+	margin-left: -4px !important;
+	/* margin-top: 22px !important; */
+}
+
+/*contact lead div strats here*/
+.padding-top-div-lead {
+	padding-bottom: 10px;
+	padding-top: 0px !important;
+}
+
+.div-top-margin-lead li {
+	margin: 5px 0;
+}
+
+.leadStatusContactesclate li:last-child textarea {
+	float: right;
+}
+
+.paddibg-top-tabs {
+	padding-top: 0 !important;
+}
+
+.div-top-margin-lead li {
+	position: relative;
+}
+
+.float-right {
+	float: right;
+}
+
+.padding-top-contactlist {
+	padding-top: 0px !important;
+}
+
+.taggs label,.tagb_div label {
+	margin-top: 2px !important;
+}
+
+.nav-tabs>li>a {
+	border-radius: 8px 8px 0 0 !important;
+}
+/* ends here*/
+.row.contactList.leadstatus.paddibg-top-tabs #content {
+	padding: 0 !important;
+}
+
+.row.contactList.leadstatus.paddibg-top-tabs {
+	margin-top: -6px !important;
+}
+
+label,.highlighted-eligibility {
+	padding-top: 0px !important;
+}
+
+#completRow {
+	margin-top: 7px;
+}
+
+#emailRow {
+	margin-top: 7px;
+}
+
+.row.contactList.leadstatus#advancedSearch {
+	padding-top: 10px !IMPORTANT;
+}
+
+.row.contactList.leadstatus#advancedSearch div.col-lg-3 {
+	margin-top: 3px !important;
+}
+
+.padding-left-img.worklist-padding-input img.worklist-iconmodel {
+	top: 6px !important;
+}
+
+.padding-left-img.worklist-padding-input {
+	margin-top: 0px;
+}
+
+#completRow+label+select+label+#contactNo1 {
+	width: 23% !important;
+}
+
+@media only screen and (min-width: 943px) {
+	.reallocattion select {
+		width: 64.3% !important;
+	}
+}
+
+#caseCode {
+	width: 58%;
+}
+
+@media only screen and (min-width: 1100px) {
+	.searchfieldss:nth-child(2) input[type="text"] {
+		width: 58% !important;
+	}
+}
+
+.set-width {
+	width: 32.59% !important;
+}
+
+#branch {
+	text-transform: uppercase;
+}
+
+.searcharea1 {
+	margin-right: 12px;
+}
+
+.searcharea1 input {
+	width: 62% !important;
+	margin-right: -15px !important;
+}
+
+.searchdiv-padding-zero div {
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+}
+
+.top-add-del {
+	top: 0 !important;
+}
+
+.tr-padding-zero tbody tr td {
+	padding-top: 5px !important;
+	padding-bottom: 5px !important;
+	background-color: white !important;
+}
+
+.tr-padding-zero {
+	margin-bottom: 7px;
+}
+
+.contact-details-width .contactAddres {
+	margin-left: -2px !important;
+}
+
+.button-delete {
+	margin-left: 7px !important;
+}
+
+.set-input-width {
+	width: 21.5% !important;
+}
+
+.saveBtnList ul li a {
+	border-right: 2px solid #00698c  !important;
+	height: 17px !important;
+	line-height: 15px !important;
+}
+
+.saveBtnList ul li:last-child a {
+	border: none !important;
+}
+
+.button-add {
+	margin-left: -7px !important;
+}
+
+.margin-contactaddress-top {
+	margin-top: -5px;
+}
+
+.top-it {
+	margin-top: 0px !important;
+}
+
+#mobileType {
+	text-transform: uppercase;
+}
+
+.margin-left-inputbox {
+	margin-left: 24px !important;
+}
+
+.border-diplay-none {
+	border: 0px solid #DDD;
+}
+
+#advancedSearch .minWidthSelect {
+	width: 26.8% !important;
+}
+
+#sortOrder1 {
+	float: left !important;
+	width: 56.6% !important;
+}
+
+#advancedSearch .minWidthSelect#sort21 {
+	width: 24.5% !important;
+}
+
+#amountFrom1 {
+	width: 56.6% !important;
+	margin-left: 2px;
+}
+
+#amountTo1 {
+	margin-left: 2px;
+}
+
+.set-it-four li {
+	width: 24.2% !important;
+}
+
+.icon-new-image {
+	right: 15px !important;
+	top: 0px !important;
+}
+
+.width-set {
+	width: 2.3%;
+}
+
+.margin-table-bottom {
+	margin-bottom: 10px;
+}
+
+.margin-table-bottom-space {
+	margin-bottom: 6px;
+}
+
+.heightandblock {
+	height: 4px !important;
+	display: block;
+}
+
+.tr-center tr td:nth-child(2) {
+	text-align: center;
+}
+
+.padding-bottom-table {
+	margin-bottom: 2px !important;
+}
+
+.top-margin-row-space {
+	margin-top: 16px;
+}
+
+#resultTable_length {
+	padding: 11px 0 !important;
+}
+
+.align-center-div {
+	padding-top: 11px;
+}
+
+.subqueuw-width {
+	width: 12%;
+}
+
+.setrowtablewidth thead tr th:nth-of-type(2) {
+	width: 140px !important;
+}
+
+.setrowtablewidth thead tr th:nth-of-type(5) {
+	width: 140px !important;
+}
+
+.contactAddres input[type="text"],.contactAddres select {
+	text-transform: uppercase;
+}
+
+.row.leadstatus.personalDetailForIndividual {
+	border: 1px solid #DDD;
+	margin-top: -8px !important;
+	padding-top: 8px !important;
+}
+
+.row.contactList.leadstatus.personalDetailForNonIndividual {
+	margin-top: -8px !important;
+}
+
+.row.keycontt table tr td select,.row.keycontt table tr td input[type="text"]
+	{
+	text-transform: uppercase;
+}
+
+.padd-top-contact-up {
+	padding-top: 6px !important;
+}
+
+.saveBtnList ul li .subheader-btn {
+	text-transform: capitalize !important;
+}
+
+textarea {
+	resize: none !important;
+}
+
+.modal-body {
+	margin-top: 13px;
+}
+
+.modal-header {
+	display: none !important;
+}
+
+.contactHeader {
+	border-bottom: solid 0px #DDD !important;
+}
+
+/*Header css 18-jan-16 starts here*/
+.contactList#collapse-div {
+	margin-top: -13px !important;
+}
+
+.searchList {
+	margin-top: 13px !important;
+}
+
+.saveBtnList {
+	margin-top: 10px !important;
+}
+
+.topMenu {
+	margin-top: 9px !important;
+}
+/*Header ends here */
+/*height isuues starts here */
+table.dataTable thead th {
+	padding: 5px 17px 5px 18px !important;
+	border-bottom: none !important;
+}
+
+table.table.table-striped th {
+	padding: 3px 0px 5px 8px !important;
+}
+/*height isuues starts here */
+/*login page starts here */
+.loginfield.image-position {
+	margin-top: 13px !important;
+}
+
+.loginfield.loginfield-two {
+	margin-top: 2px !important;
+}
+
+.loginfield input[type="text"],.loginfield input[type="password"] {
+	width: 91% !important;
+}
+
+.image-position img {
+	padding: 11px 0px 6px 17px;
+	padding-left: 11px !important;
+}
+/*
+.loginfield input[type="password"]:focus {border:2px solid #728083;border-radius:3px;}
+.loginfield input[type="text"]:focus {border:2px solid #728083;outline-radius:3px;}
+*/
+/*login page starts here */
+/*div in starts here */
+#advancedSearch .minWidthSelect#sort21 {
+	width: 9.8% !important;
+}
+
+.multiselect-container.dropdown-menu li {
+	width: 52% !important;
+}
+/*div in ends here */
+/*Font color*/
+table.dataTable tbody td {
+	COLOR: #000000 !important;
+	font-size: 14px !important;
+	text-transform: uppercase !important;
+	padding: 6px 10px !important;
+}
+
+table.dataTable thead th {
+	font-size: 14px !important;
+	text-indent: -7px;
+}
+
+.leadstatus label {
+	color: #615757 !important;
+	font-size: 16px !Important;
+}
+
+contactlist .listOne input[type="text"],.contactList .listOne select,.leadstatus input[type="text"],.leadstatus select,.leadstatus textarea
+	{
+	font-size: 14px !Important;
+}
+
+.contactHeader .mainHeading h1 {
+	color: #333;
+}
+/*Font color ends here*/
+/*By manish sir changes starts here 18-jan-16*/
+/* 3-3 div starts here*/
+.set-it-four li {
+	width: 33.2% !important;
+}
+
+.width-into-three li {
+	min-height: 36px !important;
+}
+
+.searcharea1 input {
+	height: 24px !important;
+	margin-top: -1px !important;
+	line-height: 24px !important;
+}
+/*
+hr{
+display: block;
+margin-top: 0.5em;
+margin-bottom: 0.5em;
+margin-left: auto;
+margin-right: auto;
+border-style: inset;
+width: 100%;
+border-width: 1px;
+border: 1px solid #DDD;
+margin-bottom: 0;
+}
+*/
+/* .mailingAddressDiv {
+	margin-top: 0.4em;
+	clear: both;
+	border-bottom: none;
+} */
+.mailingAddressDiv {
+    /* margin-top: 0.4em; */
+    /* clear: both; */
+    /* border-bottom: none; */
+    float: left;
+    border-top: 1px solid #ddd !important;
+    padding-top: 15px !important;
+}
+
+.mailingAddressDiv:nth-child(1) {
+	border-bottom: 0px solid #DDD;
+}
+/*
+.mailingAddressDiv .col-lg-4:nth-child(1),.mailingAddressDiv .col-lg-4:nth-child(2),.mailingAddressDiv .col-lg-4:nth-child(3){
+	margin-top: 10px !important;
+}
+*/
+.leadDetails select,.leadDetails input[type="text"],.contactlist .listOne input[type="text"],.contactList .listOne select,.leadstatus input[type="text"],.leadstatus select,.leadstatus textarea
+	{
+	width: 60.5%;
+}
+
+.set-width {
+	width: 29.65% !important;
+}
+
+.padding-left-margin img {
+	right: 34px;
+}
+
+.padding-left-margin input {
+	width: 90% !important;
+}
+
+.active_state {
+	background: #E3E3E3 !important;
+}
+
+#datepicker2+span.dobCalc {
+	right: 47px !important;
+	z-index: 99 !important;
+}
+/*.validField {
+background: #E3E3E3 !important;
+}
+*/
+.row.leadstatus .col-xs-12 {
+	margin-top: 0px !important;
+}
+
+.leadstatus label {
+	color: #615757 !important;
+	font-size: 14px !Important;
+	text-transform: capitalize !important;
+}
+
+.row.contactList.leadstatus.personalDetailForIndividual {
+	padding-top: 12px !important;
+}
+
+contactlist .listOne input[type="text"],.contactList .listOne select,.leadstatus input[type="text"],.leadstatus select,.leadstatus textarea
+	{
+	font-size: 14px !Important;
+	color: black !important;
+}
+
+.tr-padding-zero {
+	margin-bottom: 12px;
+}
+
+.bs-example {
+	border: 0px solid #DDD !important;
+}
+
+.contactList {
+	border: 0px solid #DDD !important;
+	    padding: 0px;
+}
+
+#collapse-div {
+	border: 1px solid #DDD !important;
+}
+
+.row.buttonHeading {
+	background: none !important;
+}
+
+.btn-primary,input[type="button"],button,label[for="attfile1"],.btn.btn-primary.delrow-detail
+	{
+	padding: 3px 10px !important; /*remember it*/
+	text-transform: uppercase !important;
+}
+
+.btn.btn-primary.addrow-keycontacts,.btn.btn-primary.delrow {
+	padding:3px 10px !important;
+}
+
+.btn-primary.addrow-detail {
+	padding:3px 10px !important;
+	font-size: 14px !important;
+}
+/*
+#contactNo1, #emailRow + label + select + label + input {
+margin-left: 25px;
+}
+*/
+.top-add-del {
+	top: 2px !important;
+	right: 25px;
+}
+
+/* .minus-icon1 {
+	margin-left: 6px;
+	margin-top: 3px !important;
+}
+ */
+.toggle-icon.plus-icon-2.minus-icon1 {
+	margin-top: -1px !important;
+}
+
+/* .toggle-list {
+	height: 30px !important;
+}
+ */
+.row.buttonHeading h2.heading {
+    margin-top: 5px !important;
+    margin-bottom: -3px !important;
+    padding-left: 0px;
+    font-size: 15px !important;
+    color: #000 !important;
+}
+
+.row.leadstatus .col-xs-12 {
+	margin-top: -3px !important;
+}
+
+#third .padding-left-img.padding-left-margin {
+	margin-top: 4px !important;
+}
+
+.top-one-margin {
+	margin-top: -15px !important;
+}
+
+.padd-top-contact-up {
+	padding-top: 11px !important;
+}
+
+.row.contactList.leadstatus.occ-dtls {
+	padding-top: 14px;
+}
+
+.padd-top-contact-upup {
+	padding-top: 8px !important;
+}
+
+.row.contactList.leadstatus.leadsta_resp.padding-top-contactlist.set-it-four
+	{
+	margin-top: -12px !important;
+}
+
+.leadStatusContact li:last-child label {
+	width: 33% !important;
+}
+
+.contBtn input,.buttonHeading button {
+	padding: 3px 8px !important;
+}
+
+.contBtn input,.buttonHeading button {
+	padding: 1px 8px 1px 8px !important;
+}
+
+.button-topspace {
+	margin-top: -3px !important;
+	text-transform: capitalize !important;
+}
+
+.btn.btn-primary.set-paddingandheight {
+	padding: 2px 5px 2px 5px !important;
+}
+
+.tagtop-margin {
+	margin-top: -15px;
+}
+
+#content #tabs li a {
+	font-size: 15px !important;
+}
+
+.nav.nav-tabs.contact_tabs {
+	margin-left: -4px;
+}
+
+.heading.heading-topmargin#leadstatus {
+	margin-top: 11px !important;
+}
+
+.leadStatusContact li:last-child {
+	width: 33.2% !important;
+}
+
+.addressinput {
+	float: left;
+}
+
+.searcharea1 button {
+	margin-top: -1px !important;
+}
+
+label,.highlighted-eligibility {
+	color: #615757 !important;
+}
+
+.row.list-content.table-responsive.marg-pad-0.worklist-datatable {
+	border: 0px solid black !important;
+}
+
+.leadstatus span.multiselect-selected-text {
+	color: black !important;
+}
+
+.contactList#collapse-div {
+	margin-top: 100px !important;
+}
+
+li#setinwidth li:nth-child(last) label {
+	width: 33% !important;
+}
+
+input#margin-set-left {
+	float: none !important;
+	top: -8px !important;
+	height: 26px !important;
+}
+
+.reallocattion input.saveBtn,.btn.btn-primary {
+	text-transform: uppercase !important;
+}
+/*change on 23rd january by aditya*/
+.saveBtnList {
+	margin-top: 43px !important;
+}
+
+.saveBtnList ul li a {
+	border-right: 2px solid #00698c  !important;
+	height: 14px !important;
+	line-height: 12px !important;
+}
+
+.sel-ttip select {
+	text-transform: uppercase !important;
+}
+
+.contactAddres div:nth-child(1) {
+	background: #ffffff;
+}
+
+select,input {black !important;
+	
+}
+
+select#product,select#source,select#campaign,select#allocate {
+	text-transform: uppercase !important;
+}
+.padding-left-img{
+	margin-left:2%;
+}
+.padding-left-img.padding-left-margin{
+	margin-left:0% !important;
+}
+
+.row.contactList.leadstatus.border-top#advancedSearch {
+	    border-top: 1px solid #DDD !important;
+}
+
+.row.shifttop{
+	margin-top:-15px !important;
+}
+.searchfieldss.col-xs-12.worklist-searchbtn {
+    left: -19px !important;
+}
+.searchfieldss.col-xs-12.worklist-searchbtn {
+     left: -19px !important;
+}
+.table.table-striped#allocateAgent thead tr th{
+	font-size:14px !important;
+}
+table.table.table-striped th {
+    padding: 5px 0px 5px 8px !important;
+    
+}
+table.setrowtablewidth.dataTable.no-footer thead th{
+	text-indent: -9px !important;
+}
+.loginButton input[type="submit"] {
+margin: 0 0 0 13px !important;
+width: 50% !important;
+font-weight: bold !important;
+font-size: 15px !important;
+padding: 2% 5% 2% 5% !important;
+line-height: 20px !important;
+text-transform: uppercase !important;
+}
+.loginfield {
+   margin-top: 10px;
+}
+@media (min-width: 1200px){
+.searchArea .saveBtn1.btn.btn-primary, .searchbtn1.saveBtn1.btn.btn-primary {
+    right: 10% !important;
+    position: absolute;
+    top: 6px;
+}
+	.contactList .listOne li{
+	    width: 42% !important;
+	}
+}
+/* Added BY hitanshu */
+.addedShow{
+margin-top:5px !important;
+}
+.saveBtnList.addedShow ul li .subheader-btn{border-right: 2px solid #0889C4 !important;}
+.saveBtnList.addedShow ul li:last-child a{border-right: none !important;}
+.leadstatusCng#advancedSearch button.multiselect{
+	width: 100% !important;
+}
+.leadstatusCng > div:nth-child(7) input#amountFrom1{
+	width: 49.1% !important;
+}
+.leadstatusCng > div:nth-child(8) input#amountTo1{
+	width: 49.1% !important;
+}
+.leadstatusCng#advancedSearch .minWidthSelect{
+	width: 9.8% !important;
+	margin-right: 15px;
+}
+.leadstatusCng#advancedSearch .minWidthSelect:last-child{
+	margin-right: 15px;
+}
+
+.leadstatusCng #sortOrder1 {
+margin-right:0;
+width: 49.4% !important;
+}
+.rgtAlign{
+	text-align:right;
+}
+.mrgnLead > div{
+	height: 37px;
+}
+
+

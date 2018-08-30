@@ -1,0 +1,63 @@
+.login-block{float: left;width: 100%;}
+.login-link{float: left;padding: 12px 15px;background: #000;opacity: 0.5;font-size: 20px;color: #fff;}
+.login-link em{display:none;background: url(../../images/small-icon.png) no-repeat 0 -119px;width: 14px;height: 13px;float: right;margin: 2px 0 0 8px;}
+.bx-wrapper .bx-pager.bx-default-pager a{background: #000 !important}
+.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active{background: #fff !important}
+.new-user{float: right;font-size: 14px;color: #fff;margin: 10px 0 0 0;}
+.new-user em{float: left;background: url(../../images/login/icon-sprite.png) no-repeat 0 -258px;width: 17px;height: 17px;margin: 0 5px 0 0 ;}
+.login-content{float: left;width: 95%;border: 1px solid #748625;background: #fff;padding: 18px 2.5%;}
+.login-content li{float: left;font-size: 14px;color: #000;}
+.login-content li.user-name,.login-content li.password{background: #f2f2f2;padding: 14px;width: 42.5%;}
+.login-content li.password{margin: 0 0 15px 4.5%;}
+.login-content li input[type="text"], .login-content li input[type="password"]{float: left;border: 0;background: transparent;font: 16px;color: #726464;}
+.login-content li.user-name span{background: url(../../images/login/icon-sprite.png) no-repeat 0 -236px;width: 17px;height: 19px;float: right;}
+.login-content li.password span{background: url(../../images/login/icon-sprite.png) no-repeat 0 -276px;width: 17px;height: 19px;float: right;}
+.login-content li a{float: left;font-size: 14px;color: #000;margin: 11px 0 0 0;}
+.login-content li.check{margin: 11px 0 0 12%;float: left;}
+.login-content li.check input[type="checkbox"]{margin: 1px 9px 0 0;float: left;}
+.reset{cursor:pointer;float: left;background: transparent;border: 0;color: #585858;font-size: 14px;margin: 10px 0 0 0}
+.login-content li.reset{float: right;margin: 0 2% 0 0;}
+.login-content li.go { float:right;}
+.go-btn{background: #59b337 url(../../images/login/go-btn.png) no-repeat right 15px;margin: 0 1.3% 0 0; border:0px; padding:10px 25px 10px 8px; color:#fff; cursor:pointer;position: relative;z-index: 999999999; font-size: 14px;}
+.err {
+background: #EBBFB0;
+padding: 8px;
+float: left;
+margin-left: 36px;
+margin-top: 1px;
+border: solid 1px #FFDDD1;
+}
+
+/*============================= 
+! Layout for ipad landscape  
+============================= */
+@media only screen and (max-width: 1024px) {
+.login-link{cursor: pointer;}
+}
+/* ============================= */
+/*============================= 
+! Layout for ipad portrait  
+============================= */
+@media only screen and (max-width: 992px) {
+.login-link{cursor: text;}
+}
+/* ============================= */
+/* ! Layout for mobile(lanscape) version   */
+/* ============================= */
+@media only screen and (max-width: 767px) {
+.login-content {padding: 18px 2%;width: 95%;}
+.login-content li.user-name, .login-content li.password {width: 41.5%;}
+.login-link{cursor:pointer;}
+.login-link em{background: none;}
+.login-block{padding: 0 0 10px 0;}
+
+}
+/* ============================= */
+/* ! Layout for mobile(portrait) version   */
+/* ============================= */
+@media only screen and (max-width: 479px) {
+.login-content li.user-name, .login-content li.password {margin: 0 0 10px;width: 89%;}
+.login-content li.password {margin: 0 0 15px;}
+.login-content li.go {margin: 15px 1.3% 0 0;}
+.login-content li.reset  {margin: 15px 2% 0 0;}
+}

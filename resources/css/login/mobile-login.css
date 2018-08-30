@@ -1,0 +1,29 @@
+
+/*============================= 
+! Layout for ipad landscape  
+============================= */
+@media only screen and (max-width: 1024px) {
+.login-banner{position:fixed ;width:97.5% !important;height:100%;top:0;left:0; background: url("../../images/login/login-slide1.jpg") no-repeat 0 0;float: left;padding: 0 0 0 2.5% !important;background-size: 100% 100% !important;}
+.shade{height:100%;position:absolute;background: url("../../images/black-shadow.png") no-repeat scroll right top;float: left;width: 100%;}
+.login-logo{margin: 20px 0 0 2.5% !important;}
+.right-banner{margin: 260px 0 0 0;}
+}
+/* ============================= */
+/*============================= 
+! Layout for ipad portrait  
+============================= */
+@media only screen and (max-width: 992px) {
+
+}
+/* ============================= */
+/* ! Layout for mobile(lanscape) version   */
+/* ============================= */
+@media only screen and (max-width: 767px) {
+
+}
+/* ============================= */
+/* ! Layout for mobile(portrait) version   */
+/* ============================= */
+@media only screen and (max-width: 479px) {
+
+}

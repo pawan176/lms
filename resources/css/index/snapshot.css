@@ -1,0 +1,50 @@
+.block{float: left;border: 1px solid #ddd;width: 100%;margin: 0 0 20px 0;}
+.top-head{float: left;padding: 12px 2.5% 12px;width: 95%;background:#f7f7f7;}
+.top-head h3{float: left;font: normal 16px/16px 'Open Sans Semibold',arial;color: #004fb6;}
+.top-head a{float: right;color: #505050;font-size: 12px;}
+.content{float: left;width: 95%;padding: 15px 2.5%;}
+.donut-chart{float: right;width: 100%;}
+.bar-content{width: 65%;float: left;border-right: 1px solid #ccc;padding-right: 2%;}
+.bar-graph {float: left; width:70%;}
+.percent-list{float: right;width: 25%;}
+.percent-list .heading { color:#606060; font-size:12px; padding: 0 0 0 15px; font-weight:bold;}
+.percent-list li{float: left; margin: 0 0 65px;padding: 15px 10%;width: 80%;border-left: 1px solid #ccc;}
+.percent-list strong{color: #004fb6;font-size: 32px;margin: 10px 0 0 0;display: inline-block;}
+.percent-list span{color: #606060;display: block;font-size: 12px;}
+.legend-color{color: #004fb6;font-size: 14px;}
+.legend-value{color: #4f5259;font: 15px/22px 'open_sansbold',arial;padding: 0 0 0 30px}
+.donut-container strong{float: left;width: 100%;margin: 5px 0 0 0;text-align: center;color: #585858;font: 14px/18px 'open_sansbold',arial;}
+/*#myPieChart{float: left;}*/
+.donut-container{width: 30%;float: right;}
+.highcharts-axis-labels text{color: #585858 !important;font-size: 14px !important;}
+
+/*============================= 
+! Layout for ipad landscape  
+============================= */
+@media only screen and (max-width: 1024px) {
+
+}
+/* ============================= */
+/*============================= 
+! Layout for ipad portrait  
+============================= */
+@media only screen and (max-width: 992px) {
+.bar-content {padding-right: 2%;width: 95%;}
+.donut-chart{width: 100%;}
+.donut-container{width: 100%;}
+}
+/* ============================= */
+/* ! Layout for mobile(lanscape) version   */
+/* ============================= */
+@media only screen and (max-width: 767px) {
+.percent-list li{margin: 0 0 50px;}
+.bar-content{border: 0;}
+}
+/* ============================= */
+/* ! Layout for mobile(portrait) version   */
+/* ============================= */
+@media only screen and (max-width: 479px) {
+.bar-graph{width: 50%;}
+.bar-content{border: 0;}
+}
+/* mobile css ends here*/

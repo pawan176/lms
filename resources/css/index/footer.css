@@ -1,0 +1,62 @@
+.footer{float: left;width: 94%;background: #ffdc10 url(../../images/footer-bg.gif) no-repeat 0 0;padding: 30px 3% 20px;font-size: 14px;color: #000;border-top:1px solid #7f8c8d;}
+.left-footer{float: left;width: 30%;line-height: 18px;}
+.right-footer{width: 68%;float: right;}
+.footer-links{float: left;width: 100%;margin: 0 0 35px 0;}
+.col1{float: left;margin: 0 6%;}
+.col1:first-child{margin: 0 6% 0 0;}
+.col1 li{float: left;margin:0 0 10px 0;width: 100% }
+.col1 li a{color: #000;font-size: 14px;}
+.footer-info{float: right;width: 65%;}
+.footer-info li{float: left;margin: 0 0 0 10%;}
+.footer-info li a{float: left;font-size: 16px;color: #000;line-height: 20px;}
+.footer-info li em.call{background: url(../../images/icon-sprite.png) no-repeat 1px -48px;float: left;width: 26px;height: 22px;}  
+.footer-info li em.mail{background:  url(../../images/icon-sprite.png) no-repeat 1px -74px;float: left;width: 32px;height: 20px;}
+.social-icon{float: right;width: 22%;}
+.social-icon li{float: left;margin: 0 0 0 8%;}
+.social-icon li a{width: 24px;height: 26px;background: url(../../images/icon-sprite.png) no-repeat 1px -152px;float: left;}
+.social-icon li a.facebook{background-position: -75px -517px;}
+.social-icon li a.twitter{background-position: -74px -545px;}
+.social-icon li a.u-tube{background-position: 0 -973px;width: 27px;}
+.social-icon li a.linkedin{background-position: -74px -956px;width: 27px;}
+/*============================= 
+! Layout for ipad landscape  
+============================= */
+@media only screen and (max-width: 1024px) {
+.social-icon{width: 26%;}
+.footer-info li{margin: 0 0 10px 10%}
+.col1{float: left;margin: 0 5%;}
+.col1:first-child{margin: 0 5% 0 0;}
+}
+/* ============================= */
+/*============================= 
+! Layout for ipad portrait  
+============================= */
+@media only screen and (max-width: 992px) {
+.col1 {margin: 0 3.5%;}
+.col1:first-child{margin: 0 3.5% 0 0;}
+.left-footer {width: 20%;}
+.right-footer {width: 80%;}
+.social-icon{width: 28%;}
+}
+/* ============================= */
+/* ! Layout for mobile(lanscape) version   */
+/* ============================= */
+@media only screen and (max-width: 767px) {
+.footer {padding: 20px 1%;width: 98%;}
+.footer-links {margin: 0 0 10px;}
+.col1 {margin: 3% 3.5% 0 0 ;}
+.col1:first-child{margin: 3% 3.5% 0 0;}
+.left-footer, .right-footer ,.footer-info{margin: 10px 0 0;width: 100%;}
+.social-icon {float: left;margin: 10px 0 0;width: 36%;}
+.social-icon li {margin: 0 8% 0 0;}
+.footer-info li {margin: 0 0 10px;width: 100%;}
+}
+/* ============================= */
+/* ! Layout for mobile(portrait) version   */
+/* ============================= */
+@media only screen and (max-width: 479px) {
+.social-icon{width: 50%;}
+}
+
+
+/* mobile css ends here*/

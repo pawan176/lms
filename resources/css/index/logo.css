@@ -1,0 +1,40 @@
+.logo{float:left;padding: 9px 0 8.5px 2%;width: 19.4%;background: #ffdc10 url(../../images/logo-bg.jpg) no-repeat 0 0;border-bottom: 1px solid #9a8340;}
+.logo a{float: left;width: 55%;}
+.logo img{float: left;}
+.logo span{color: #004fb6;font-size: 11px;float: left;padding: 10px 0 0 2%;text-transform: uppercase;}
+/*============================= 
+! Layout for ipad landscape  
+============================= */
+@media only screen and (max-width: 1024px) {
+.logo{padding: 10px 0 9.5px 0.5%;width: 20.9%;}
+.logo a{float: left;width: 57%;}
+}
+/* ============================= */
+/*============================= 
+! Layout for ipad portrait  
+============================= */
+@media only screen and (max-width: 992px) {
+.logo {padding:9.5px 0 9px 0.5%;width: 20.9%;}
+.logo span{padding: 6px 0 0 2%;}
+}
+@media only screen and (max-width: 920px) {
+.logo {padding: 3px 0 1px 0.5% ;width: 20.9%;}
+
+}
+/* ============================= */
+/* ! Layout for mobile(lanscape) version   */
+/* ============================= */
+@media only screen and (max-width: 767px) {
+.logo {padding: 10px 5%;width: 90%;position: fixed;z-index: 999999;}
+.logo a{width: 27%}
+.mobile-scroll{padding-top:48px;}
+}
+/* ============================= */
+/* ! Layout for mobile(portrait) version   */
+/* ============================= */
+@media only screen and (max-width: 479px) {
+
+}
+
+
+/* mobile css ends here*/
